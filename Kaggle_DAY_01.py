@@ -32,7 +32,7 @@ print(result)
 name="Maham"
 age=19
 country="Pakistan"
-print(f"My name is" {name} "Fayyaz.") 
+print(f"My name is {name} Fayyaz.") 
 print("I am",age,"years old.")
 print("I live in",country)
                       # HOUR CALCULATION
