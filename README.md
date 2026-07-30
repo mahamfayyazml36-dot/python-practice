@@ -1,4 +1,3 @@
-# python-practice
 # Python Practice 🐍
 
 Welcome to my Python learning journey.
