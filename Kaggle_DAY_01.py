@@ -2,7 +2,7 @@
                   #My first day kaggle Parctice
 #1. PRINT
 print("Assalam-o-alaikum  class10 ")
-print("My intructer's name is usman bhaig.")
+print("My intructer name is usman baig.")
 
 #2. VARIABLE
 name = "Usman Riaz"
@@ -32,7 +32,7 @@ print(result)
 name="Maham"
 age=19
 country="Pakistan"
-print("My name is",name,"Fayyaz.") 
+print(f"My name is" {name} "Fayyaz.") 
 print("I am",age,"years old.")
 print("I live in",country)
                       # HOUR CALCULATION
