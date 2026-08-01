@@ -2,9 +2,9 @@
 
 I am learning step by step from programming fundamentals to advanced Artificial Intelligence.
 
-My goal is to build real-world AI systems, work in the AI industry, and eventually grow into an **AI Engineer / AI Architect**.
+My goal is to build real-world AI systems, develop strong technical skills, and grow into an **AI Engineer, AI Architect, and AI Researcher**.
 
-## 🗺️ My Roadmap
+## 🗺️ My Final Learning Roadmap
 
 Computer Basics
 ↓
@@ -21,6 +21,8 @@ NumPy
 Pandas
 ↓
 Data Visualization
+↓
+Power BI
 ↓
 Statistics
 ↓
@@ -44,19 +46,35 @@ MLOps
 ↓
 Cloud AI (AWS/Azure/GCP)
 ↓
+AI Security
+↓
+AI Ethics
+↓
 AI System Design
+↓
+Research Papers & AI Research
 ↓
 AI Research / AI Architect
 
+## 🏆 Practice & Portfolio
+
+- Kaggle Courses
+- Kaggle Exercises
+- Kaggle Competitions
+- Kaggle Projects
+- GitHub Projects
+- Real-world AI Projects
+
 ## 🎯 Final Goal
 
-**AI Engineer → AI Systems/Architect → AI Research**
+**AI Engineer → AI Architect → AI Researcher**
 
-This repository documents my learning, practice, projects, and progress toward becoming an AI professional.
+I want to build useful and impactful AI systems and continuously improve my knowledge through learning, practice, projects, and research.
 
 ---
 
 🐍 Learning Python  
-📊 Building Data & ML skills  
-🤖 Advancing toward AI  
+📊 Building Data & Machine Learning skills  
+🤖 Advancing toward Artificial Intelligence  
+🔬 Learning Research & AI Systems  
 🚀 Building projects along the way
