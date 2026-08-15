@@ -1,154 +1,146 @@
-# 🐍 Python Learning Journey — Hunarmand Punjab
+# 🐍 Hunarmand Punjab — Python Learning Journey
 
-This repository contains my Python learning journey and practice work from the Hunarmand Punjab AI course.
+This folder contains my Python learning practice from the Hunarmand Punjab AI course.
 
-I am learning Python step by step as a foundation for Artificial Intelligence, Machine Learning, and Data Science.
+I am learning Python step by step and practicing each topic by writing my own examples and mini programs.
 
 ---
 
-## 📂 Files & Practice
+## 📚 Day 1 — print()
 
-### 1. Day 1 — Print Method
-
-In Day 1, I learned the basic `print()` function and practiced displaying text and simple messages in Python.
-
-**Topics:**
+### Topics Covered
 - `print()`
-- Basic output
-- Text and messages
+- Printing text and values
+- Basic Python output
+
+### Practice
+I practiced the `print()` function using different messages and simple examples.
 
 ---
 
-### 2. Day 2 — Variables & Casting
+## 📚 Day 2 — Variables & Type Casting
 
-In Day 2, I learned how to store information in variables and convert data between different types.
-
-**Topics:**
+### Topics Covered
 - Variables
+- Variable assignment
 - Data types
-- Type casting
+- `str()`
+- `int()`
+- `float()`
 - `type()`
 - Case sensitivity
-- Variable naming
-- Camel Case
-- Pascal Case
-- Snake Case
+- Variable naming conventions
+
+### Variable Naming
+- camelCase
+- PascalCase
+- snake_case
 
 ---
 
-### 3. Day 3 — Python Fundamentals
+## 📚 Day 3 — Python Fundamentals
 
-In Day 3, I practiced different Python data types, variables, functions, and collections.
-
-**Topics:**
-- Variables
-- Data types
+### Topics Covered
+- Variables and assignment
+- Basic data types
 - Multiple variables
-- Variable unpacking
+- Multiple assignment
+- Unpacking
 - Functions
-- Local and global variables
-- Lists
-- Tuples
-- Dictionaries
-- Sets
-- Frozensets
+- Global variables
+- Local variables
+- Global keyword
+- Integer
+- Float
+- String
+- Complex numbers
+- List
+- Tuple
+- Range
+- Dictionary
+- Set
+- Frozenset
 - Boolean
-- None
 - Bytes
 - Bytearray
 - Memoryview
+- None
 - Type casting
+- Boolean conversion
+
+I also practiced these concepts through multiple Python examples.
 
 ---
 
-### 4. Day 4 — Input & Formatting Practice
+## 📚 Day 4 — Input & Output Methods
 
-In Day 4, I practiced taking user input and formatting Python output.
-
-**Topics:**
+### Topics Covered
 - `input()`
-- `print()`
+- Normal `print()`
 - `sep`
 - `end`
 - Escape sequences
 - `\n`
 - `\t`
-- f-strings
+- Quotation marks
+- f-Strings
 - `.format()`
-- Arithmetic calculations
-- Type casting
-- Boolean conditions
-- Functions
-- Lists and dictionaries
+
+I practiced taking user input and displaying information using different Python output methods.
 
 ---
 
-### 5. `combined_practice.py` 🐍
+# 🧪 Combined Practice
 
-This file contains my combined Python practice from my previous learning days.
+After completing Day 1, Day 2 and Day 3, I created a separate file called:
 
-It includes practice of Python fundamentals such as:
+`Combined_Practice.py`
 
+This file contains my own practice of the Python concepts I had learned so far.
+
+### Concepts Practiced
+- Input
 - Variables
 - Data types
 - Type casting
-- Operators
-- Functions
-- Lists
-- Tuples
-- Dictionaries
-- Sets
-- Boolean
-- Input and output
-- String formatting
+- Print
+- `sep`
+- `end`
+- Escape sequences
+- f-Strings
+- `.format()`
+- Basic calculations
 
-This file represents my hands-on practice while learning Python.
+### Output
 
----
-
-### 6. `student_report_card.py` 🎓
-
-This is my **first Python mini project**.
-
-The Student Report Card program takes student information and subject marks as input and generates a simple report card.
-
-**Features:**
-- Student name
-- Father name
-- Class
-- Roll number
-- Subject marks
-- Total marks
-- Average
-- Percentage
-- Grade
-- Pass/Fail status
-
-**Python concepts used:**
-- `input()`
-- Variables
-- Type casting
-- Arithmetic operations
-- f-string formatting
-- `if`
-- `elif`
-- `else`
-
-This project helped me apply the Python concepts I learned into a practical program.
+![Combined Practice Output](Combined_Practice_Output.JPG)
 
 ---
 
-## 🛠️ Technology
+# 📁 Files in This Folder
 
-**Language:** Python 🐍
+| File | Description |
+|---|---|
+| `Day1.py` | Day 1 Python practice |
+| `Day2.py` | Day 2 Python practice |
+| `Day3.py` | Day 3 Python practice |
+| `Day4.py` | Day 4 Python practice |
+| `Combined_Practice.py` | My combined Python practice |
+| `Combined_Practice_Output.JPG` | Output screenshot of combined practice |
 
 ---
 
-## 🎯 Learning Goal
+# 🎯 My Learning Goal
 
-I am building my Python foundation step by step before moving towards:
+I am learning Python as a foundation for my future journey in:
 
-**Python → NumPy → Pandas → SQL → Statistics → Machine Learning → Deep Learning → Artificial Intelligence**
+- Data Science
+- Machine Learning
+- Artificial Intelligence
+- Deep Learning
+- Generative AI
+
+I will continue learning, practicing and building projects step by step. 🚀
 
 ---
 
@@ -156,10 +148,4 @@ I am building my Python foundation step by step before moving towards:
 
 **Maham Fayyaz**
 
-Learning Python and Artificial Intelligence step by step. 🚀
-
----
-
-## 🌱 Learning Philosophy
-
-> Small practice every day leads to bigger skills over time.
+Python Learner | Aspiring AI & Data Science Professional
