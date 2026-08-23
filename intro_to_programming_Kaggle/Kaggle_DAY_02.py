@@ -1,3 +1,16 @@
+# ============================================================
+# Kaggle - Intro to Programming
+# Day 2: Functions
+# Topics Covered:
+# - Defining Functions using the 'def' keyword
+# - Function Parameters and Arguments (Single & Multiple)
+# - Returning Values using the 'return' statement
+# - Mathematical Operations inside Functions (+, -, *, /)
+# - Function Naming Conventions (snake_case)
+# - Real-World Applications (Tax & Salary Calculations)
+# - Functions Without Arguments
+# ============================================================
+
                               # Functions
 def math(work):
         insta=work+5
@@ -137,3 +150,23 @@ def intro():
     print("My name is Maham Fayyaz.")
     print("I am Learning Python.")
 intro()    
+
+# ============================================================
+# DAY 2 SUMMARY & KEY TAKEAWAYS
+# ============================================================
+# 1. Function Basics:
+#    - Created using 'def function_name(parameter):'
+#    - 'return' sends the calculated result back to the caller.
+#    - Calling a function executes the code inside it with specified arguments.
+
+# 2. Parameters & Arguments:
+#    - Can take no arguments: def intro()
+#    - Can take single argument: def add_five(section)
+#    - Can take multiple arguments: def math_simple(n1, n2, n3, n4)
+
+# 3. Best Practices:
+#    - Use descriptive names (e.g., 'add_five' instead of generic names).
+#    - Functions help reuse code and avoid writing the same math repeatedly.
+
+# Status: All Kaggle Day 2 Concepts Successfully Tested & Working!
+# ============================================================
