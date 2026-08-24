@@ -125,7 +125,11 @@ I want to build useful and impactful AI systems and continuously improve my know
 - Menu management
 
 ---
+## 🔗 Kaggle Notebook
 
+My Kaggle notebook contains my Python self-practice after completing the Kaggle Intro to Programming course.
+
+👉 [View My Kaggle Notebook] (https://www.kaggle.com/code/mahamml/python-basics-practice-maham-fayyaz)
 # 🧪 My Own Python Practice
 
 Along with Kaggle exercises, I created my own practice programs:
