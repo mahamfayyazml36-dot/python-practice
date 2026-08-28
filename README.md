@@ -20,15 +20,15 @@ NumPy
 ↓
 Pandas
 ↓
-Data Visualization
+Data Visualization (Matplotlib + Seaborn + Plotly)
 ↓
 Power BI
 ↓
-Statistics
+Statistics (NumPy + Pandas + SciPy)
 ↓
-Machine Learning
+Machine Learning (scikit-learn)
 ↓
-Deep Learning
+Deep Learning (PyTorch + TensorFlow + Keras)
 ↓
 Computer Vision + NLP
 ↓
