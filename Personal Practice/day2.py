@@ -1,3 +1,22 @@
+# ============================================================
+# Python Practice - Day 2: Operators
+#
+# Practiced and completed by: Maham Fayyaz
+# This practice was completed independently while learning
+# Python programming.
+#
+# Topics Covered:
+# - Arithmetic Operators
+# - Comparison Operators
+# - Logical Operators
+# - Assignment Operators
+# - Membership Operators
+# - Identity Operators
+# - Using Operators with Variables
+# ============================================================
+
+# My Day 2 Python Practice
+
 
                     # OPERATORS
 # 1. Addition
@@ -126,3 +145,34 @@ print(program is not language)
 number1 = 20
 number2 = 10
 print(number1 is number2)
+
+
+# ============================================================
+# DAY 2 SUMMARY & KEY TAKEAWAYS
+# ============================================================
+# 1. Arithmetic Operators:
+#    - Practiced addition (+), subtraction (-), multiplication (*),
+#      division (/), power (**), and floor division (//).
+#
+# 2. Comparison Operators:
+#    - Practiced ==, !=, >, <, >= and <=.
+#    - Used comparison operators to compare different values.
+#
+# 3. Logical Operators:
+#    - Practiced AND, OR and NOT.
+#    - Used logical operators to work with multiple conditions.
+#
+# 4. Assignment Operators:
+#    - Practiced =, +=, -=, *= and /=.
+#    - Used them to assign and update variable values.
+#
+# 5. Membership Operators:
+#    - Practiced 'in' and 'not in'.
+#    - Used them to check whether a value exists in a sequence.
+#
+# 6. Identity Operators:
+#    - Practiced 'is' and 'is not'.
+#    - Used them to check whether two variables refer to the same object.
+#
+# Status: Day 2 Python Operators Practice Completed Successfully!
+# ============================================================

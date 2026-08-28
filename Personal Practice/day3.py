@@ -1,3 +1,25 @@
+# ============================================================
+# Python Practice - Day 3: Conditional Statements
+#
+# Practiced and completed by: Maham Fayyaz
+# This practice was completed independently while learning
+# Python programming.
+#
+# Topics Covered:
+# - if Statement
+# - if-else Statement
+# - if-elif-else Statement
+# - Nested if Statements
+# - Nested if-else Statements
+# - Nested if-elif-else Statements
+# - Logical Operators with if
+# - Using and, or and not with Conditions
+# - Building Conditions for Real-World Examples
+# ============================================================
+
+# My Day 3 Python Practice
+
+
 # if statement
 age = 20
 if age >= 18:
@@ -148,3 +170,43 @@ if not modelfailed:
 else:
     print("Model is hectic")          
        
+
+# ============================================================
+# DAY 3 SUMMARY & KEY TAKEAWAYS
+# ============================================================
+# 1. if Statement:
+#    - Learned how to execute code when a condition is True.
+#
+# 2. if-else Statement:
+#    - Learned how to execute different code depending on
+#      whether a condition is True or False.
+#
+# 3. if-elif-else Statement:
+#    - Practiced checking multiple conditions.
+#    - Used it to create a simple grading system.
+#
+# 4. Nested if:
+#    - Learned how to place one if statement inside another
+#      if statement.
+#
+# 5. Nested if-else:
+#    - Practiced multiple conditions using nested if and else
+#      statements.
+#
+# 6. Nested if-elif-else:
+#    - Practiced more complex decision-making using nested
+#      conditions.
+#
+# 7. Logical Operators with if:
+#    - Practiced 'and', 'or' and 'not' with conditional
+#      statements.
+#    - Used conditions with AI/ML examples such as model
+#      accuracy, confidence and deployment readiness.
+#
+# 8. Practical Practice:
+#    - Created different decision-making programs using
+#      real-world examples such as age, marks, weather,
+#      prices and AI model predictions.
+#
+# Status: Day 3 Conditional Statements Practice Completed Successfully!
+# ============================================================       

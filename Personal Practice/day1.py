@@ -1,3 +1,23 @@
+# ============================================================
+# Python Practice - Variables, Data Types, print() and input()
+#
+# Practiced and completed by: Maham Fayyaz
+# This practice was completed independently while learning
+# Python programming.
+#
+# Practice Topics:
+# - Creating and Using Variables
+# - String, Integer, Float and Boolean Data Types
+# - Printing Values using print()
+# - Taking User Input using input()
+# - Storing User Input in Variables
+# - Using Variables in Text
+# - Creating a Simple "About Me" Program
+# ============================================================
+
+# My Day 1 Python Practice
+
+
                  # VARIABLE
 name="JANNAT FAYYAZ"
 age=20
@@ -47,3 +67,28 @@ print("Maham: Leon You Know My Favourite color and Programming Language")
 print("Leon: NO Maham")
 print("Maham: Ok, I will tell you my favourite programming language is", favourite_programming_language, "and my favourite color is", favourite_color)
 print("Nice Choice Maham")
+
+
+# ============================================================
+# PYTHON PRACTICE SUMMARY & KEY TAKEAWAYS
+# ============================================================
+# 1. Variables:
+#    - Practiced creating variables to store different values.
+#    - Stored information such as name, age, height and student status.
+#
+# 2. Data Types:
+#    - Practiced String, Integer, Float and Boolean data types.
+#
+# 3. print():
+#    - Used print() to display text, variables and values.
+#
+# 4. input():
+#    - Used input() to take information from the user.
+#    - Stored the entered information in variables.
+#
+# 5. Practical Practice:
+#    - Created a simple "About Me" program.
+#    - Used variables, input(), print() and f-strings together.
+#
+# Status: Python Practice Completed Successfully!
+# ============================================================
