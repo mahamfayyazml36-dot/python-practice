@@ -9,7 +9,7 @@
 # - Analysis of conflict timeline and historical data.
 # - Storing event datasets using Lists, Nested Lists, and Dictionaries.
 # - Classifying event severity using Conditional Statements (if-elif-else).
-# - Iterating through timeline data using for loops, enumerate(), and zip().
+# - Iterating through timeline data using for loops and enumerate().
 # ============================================================
 
 
@@ -46,7 +46,7 @@ print("Project Type:", project_type)
 # Display user information
 
 print("================================================================")
-print("welcom",user_name,"!")
+print("welcome",user_name,"!")
 print("================================================================")
 print("Your Country:", country)
 print("Your Interest:", user_interest)
@@ -61,7 +61,7 @@ print("================================================================")
 conflict_event =[
     ["10 May 2025", "Military Escalation", "Major Event"],
     ["10 May 2025", "Drone and Missile Exchanges", "Major Event"],
-    ["10 May 2025", "Artillrey Exchanges", "Military Event"],
+    ["10 May 2025", "Artillery Exchanges", "Military Event"],
     ["10 May 2025", "Ceasefire Announcement", "De-escalation"],
     ["10 May 2025", "Conflict De-escalation", "Important Event"]
 ]
@@ -72,7 +72,7 @@ country_information ={
     "country_1" : "Pakistan",
     "country_2" : "India",
     "Date" : "10 May 2025",
-    "conflict_type" : "Militry conflict"
+    "conflict_type" : "Military conflict"
 }
 
 # Display conflict event data
@@ -121,13 +121,13 @@ event_status = "Major Event"
 # Classify the event using if, elif and else
 
 if event_status == "Major Event":
-    print("This is an Major Event.")
+    print("This is a Major Event.")
 
 elif event_status == "Military Event":
-    print("This is an Military Event.")
+    print("This is a Military Event.")
 
 elif event_status == "De-escalation":
-    print("This is an De-escalation Event.")
+    print("This is a De-escalation Event.")
 
 else:
     print("This is an Important Event.")
@@ -142,18 +142,18 @@ print("================================================================")
 
 # Store event status, date and ceasefire status
 
-event__status = "Major Event"
-event__date = "10 May 2025"
+event_status = "Major Event"
+event_date = "10 May 2025"
 is_ceasefire_announced = True
 
 # Use AND to check two conditions together
 
-if event__status == "Major Event" and event__date == "10 May 2025":
+if event_status == "Major Event" and event_date == "10 May 2025":
     print("This is a major event on May 10, 2025.")
 
 # Use OR to check multiple possible conditions
 
-if event__status == "Major Event" or is_ceasefire_announced == False:
+if event_status == "Major Event" or is_ceasefire_announced == False:
     print("This event is important for the analysis.")
 
 # Use NOT to reverse a Boolean condition
@@ -306,7 +306,7 @@ print("================================================================")
 # Display project information
 
 print("Project Title:", project_title)
-print("Countreis:", country_1, "and", country_2)
+print("Countries:", country_1, "and", country_2)
 print("Important Date:", important_date)
 print("Conflict Type:", country_information["conflict_type"])
 print("-----------------------------------------------------------------") 
