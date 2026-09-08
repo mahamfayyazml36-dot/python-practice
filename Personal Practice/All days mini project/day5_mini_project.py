@@ -26,20 +26,20 @@
 # - Real-world problem solving
 # ================================================================
 
+pizza ="Pizza"
+burger = "Burger"
+biryani ="Biryani"
+exit_option = "Exit"
+
+pizza_price = 1500
+burger_price = 500
+biryani_price = 200
 
 
 
 grand_total = 0
 customer_name =input("Enter your customer name:")
 while True:
-    pizza ="Pizza"
-    burger = "Burger"
-    biryani ="Biryani"
-    exit_option = "Exit"
-    pizza_price = 1500
-    burger_price = 500
-    biryani_price = 200
-    
     print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
     print("FOOD MENU")
     print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
