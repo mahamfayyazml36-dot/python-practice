@@ -68,7 +68,12 @@ print("Leon: NO Maham")
 print("Maham: Ok, I will tell you my favourite programming language is", favourite_programming_language, "and my favourite color is", favourite_color)
 print("Nice Choice Maham")
 
-
+                        # Print Method
+print("Assalam-o-alaikum! Classs------")
+print("Waalaikum salam")
+print("Kesy hein teacher aab kia aap ki tabiyat theek hai?")
+print("GG bilkul student theek hun mein. aap sub kesy hein? ")
+print("aaj ki lesson read klrna hai ? Kia koi bataye ga?")
 # ============================================================
 # PYTHON PRACTICE SUMMARY & KEY TAKEAWAYS
 # ============================================================
