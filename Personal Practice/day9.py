@@ -1,3 +1,12 @@
+# ============================================================
+# DAY 9 — LIST METHODS & OPERATIONS 📋
+# Topic: Python Lists
+# Practiced List Methods and Operations:
+# append(), insert(), remove(), pop(), clear()
+# sort(), reverse(), count(), index(), copy()
+# Membership Operators: in, not in
+# Practiced and completed by: Maham Fayyaz
+# ============================================================
 # append()
 foods = ["Biryani", "Pizza"]
 foods.append("Burger")
@@ -48,3 +57,8 @@ print("computer" in books)
 classes = ["Biology", "Computer", "IT"]
 print("Math" not in classes)
 print("Biology" not in classes)
+# ============================================================
+# DAY 9 COMPLETED ✅
+# Practiced and understood important Python List methods,
+# list operations, copying lists, and membership checking.
+# ============================================================

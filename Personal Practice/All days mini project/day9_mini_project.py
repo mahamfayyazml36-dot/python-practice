@@ -1,6 +1,12 @@
 # ============================================================
 # DAY 9 — MINI PROJECT: INVENTORY MANAGER 🏪
-# Topics: List Methods & Operations
+# Topic: List Methods & Operations
+# Methods Practiced:
+# append(), insert(), remove(), pop(), sort(), reverse(),
+# clear(), count()
+# Other Concepts: len(), in, if-elif-else, while loop,
+# enumerate(), user input
+# Practiced and completed by: Maham Fayyaz
 # ============================================================
 print("==========INVENTORY MANAGER==========")
 print("1. 📦 View Inventory")
@@ -106,6 +112,11 @@ while True:
     else:
         print("Invalid choice. Please choose 1-12.")
 
-
+# ============================================================
+# DAY 9 MINI PROJECT COMPLETED ✅
+# Built an interactive Inventory Manager using Python Lists.
+# Practiced adding, inserting, removing, updating, checking,
+# counting, sorting, reversing, and clearing inventory items.
+# ============================================================
 
 
