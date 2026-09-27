@@ -19,9 +19,13 @@ and displays the information along with their data types.
 
 ## Example Output
 ----Student Information----
+
 Name: Maham Fayyaz
+
 Age: 19
+
 Height: 5.2
+
 Student: True
 
 ----Data Type----

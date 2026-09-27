@@ -41,12 +41,14 @@ You can:
 4. Follow the prompts.
 
 ## Example Output
+
 ========== INVENTORY MANAGER ==========
 1. View Inventory
 2. Add Product
 ...
 Enter your choice: 2
 Enter your new product: Boxing Gloves
+
 Product added successfully
 ['Boxing Glove', 'Hand Wrap', 'Shin Guard', 'MMA Shorts', 'Boxing Gloves']
 

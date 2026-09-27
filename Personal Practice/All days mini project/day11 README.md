@@ -28,6 +28,7 @@ The program analyzes product data and:
 5. Follow the prompts.
 
 ## Example Output
+
 ========== UNIQUE DATA ANALYZER ==========
 Original Products: ['Boxing Gloves', 'Hand Wraps', 'Boxing Gloves', ...]
 Unique Products: {'Boxing Gloves', 'Hand Wraps', 'Shin Guards', 'MMA Gloves'}
@@ -44,7 +45,9 @@ Duplicate Products: 3
 4. View Unique Product Count
 5. View Duplicate Count
 6. Exit
+
 Enter your choice: 2
+
 Unique Products: {'Boxing Gloves', 'Hand Wraps', 'Shin Guards', 'MMA Gloves'}
 
 ## Author

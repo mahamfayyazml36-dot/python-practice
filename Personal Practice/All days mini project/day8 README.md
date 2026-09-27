@@ -33,6 +33,7 @@ You can:
 4. Follow the prompts.
 
 ## Example Output
+
 ========== SHOPPING LIST PROGRAM ==========
 1. Add Item
 2. Insert Item
@@ -52,5 +53,6 @@ Enter your Third Item: Eggs
 
 Items added successfully!
 ['Milk', 'Bread', 'Eggs']
+
 ## Author
 Maham Fayyaz

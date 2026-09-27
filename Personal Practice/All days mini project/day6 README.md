@@ -31,6 +31,7 @@ It shows a summary at the end.
 5. Type "exit" to stop and see the summary.
 
 ## Example Output
+
 Enter your student name: Ali
 Enter the present student(YES / NO): YES
 Enter your student name: Sara
@@ -46,6 +47,7 @@ ABSENT STUDENTS COUNT: 1
 ABSENT STUDENTS NAMES: ['Sara']
 PRESENT STUDENTS NAMES: ['Ali']
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 
 ## Author
 Maham Fayyaz

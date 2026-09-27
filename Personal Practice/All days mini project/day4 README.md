@@ -23,12 +23,15 @@ The program takes a number from the user and:
 Enter your number: 5
 
 ----Number from 1 to 5 ----
+
 1
 2
 3
 4
 5
+
 ----Multiplication Table of 5 ----
+
 5 X 1 = 5
 5 X 2 = 10
 5 X 3 = 15
@@ -39,6 +42,7 @@ Enter your number: 5
 5 X 8 = 40
 5 X 9 = 45
 5 X 10 = 50
+
 
 ## Author
 Maham Fayyaz

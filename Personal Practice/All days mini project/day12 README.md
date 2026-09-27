@@ -33,13 +33,16 @@ You can:
 4. Follow the prompts.
 
 ## Example Output
+
 ========== STUDENT DATABASE ==========
+
 1. View Student
 2. Search Student
 3. Add Student
 4. Update Student
 5. Delete Student
 6. Exit
+
 Enter your choice: 1
 View Students
 Name: Maham
@@ -47,5 +50,6 @@ Age: 19
 Course: Python
 City: Sialkot
 -------------------------
+
 ## Author
 Maham Fayyaz

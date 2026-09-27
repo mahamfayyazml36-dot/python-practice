@@ -30,6 +30,7 @@ You can:
 4. Follow the prompts.
 
 ## Example Output
+
 ========== STUDENT RECORD SYSTEM ==========
 
 ('Leon', 18, 'C++'), ('Nilofer', 17, 'Python'), ...
@@ -39,6 +40,7 @@ You can:
 2. Search Student
 3. Count Student
 4. Exit
+
 Enter your choice: 2
 Enter the student name: leon
 

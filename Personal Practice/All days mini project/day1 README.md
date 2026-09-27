@@ -25,9 +25,13 @@ Which city do you live in? Sialkot
 What is your favorite subject? Computer Science
 
 ----Student introduction----
+
 Name: Maham
+
 Age: 19
+
 City: Sialkot
+
 Favorite Subject: Computer Science
 
 Hello Maham!

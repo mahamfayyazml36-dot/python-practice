@@ -29,6 +29,7 @@ The program processes multiple students and:
 4. See the final summary.
 
 ## Example Output
+
 ----------------------------------------------------------------
 Student: Ali
 Age: 25
@@ -38,6 +39,7 @@ Grade: A
 Eligibility: Eligible
 ----------------------------------------------------------------
 ...
+
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 FINAL SUMMARY
