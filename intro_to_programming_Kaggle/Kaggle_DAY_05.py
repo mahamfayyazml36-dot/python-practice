@@ -1,20 +1,8 @@
-# ============================================================
-# Kaggle - Intro to Programming
-# Day 5: Lists
-# Topics Covered:
-# - Creating Lists
-# - List Indexing
-# - List Slicing
-# - len() Function
-# - Adding Items using append()
-# - Removing Items using remove()
-# - min(), max(), and sum() Functions
-# - Calculating Averages
-# - Working with Lists inside Functions
-# - Boolean Lists and List Comprehension
-# - String split() Method
-# - Practical Data Analysis with Lists
-# ============================================================
+# My Kaggle Practice - Day 5
+# Name: Maham Fayyaz
+# What I learned today: lists (indexing, slicing, 
+# append, remove, min, max, sum, split, list comprehension)
+# Course: Kaggle - Intro to Programming
 
 flowers = ["tulip", "Rose", "lily", "sunflower"]
 print(flowers)
@@ -26,7 +14,7 @@ favorite_things = ["Python", "Ai", "Book", "Data"]
 print(favorite_things)
 print(type(favorite_things))
 print(favorite_things[0])
-print(favorite_things[3])               #Indexing        # len()
+print(favorite_things[3])               #Indexing        # Len()
 print(favorite_things[2])
 print(favorite_things[1])
 print(len(favorite_things))
@@ -98,41 +86,7 @@ menu.remove("bean soup")
 print(menu)
 menu.append("roasted beet salad")
 print(menu)
-
-
-
-# ============================================================
-# DAY 5 SUMMARY & KEY TAKEAWAYS
-# ============================================================
-# 1. Lists:
-#    - Created and stored multiple values in lists.
-#    - Used indexing to access individual items.
-#    - Used slicing to access parts of a list.
-#
-# 2. List Operations:
-#    - len() finds the number of items in a list.
-#    - append() adds a new item to a list.
-#    - remove() removes a specific item from a list.
-#
-# 3. Data Analysis:
-#    - min() finds the smallest value.
-#    - max() finds the largest value.
-#    - sum() calculates the total.
-#    - Used sum() and len() to calculate averages.
-#
-# 4. Functions with Lists:
-#    - Created functions that receive lists as parameters.
-#    - Performed calculations using list elements.
-#
-# 5. Boolean Lists:
-#    - Used conditions to create True/False values in a list.
-#    - Practiced basic list comprehension.
-#
-# 6. Strings:
-#    - Used split() to divide strings into separate list items.
-#
-# 7. Practical Practice:
-#    - Analyzed user data, ratings, customers, sales, and menu items.
-#
-# Status: All Kaggle Day 5 Concepts and Exercises Completed Successfully!
-# ============================================================
+# Today's practice is complete.
+# I practiced lists: indexing, slicing, append, remove, min, max, sum,
+# averages, functions with lists, boolean lists, and split().
+# This is my Kaggle Day 5 practice.

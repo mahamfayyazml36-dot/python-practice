@@ -1,27 +1,23 @@
-# ============================================================
-# DAY 9 — MINI PROJECT: INVENTORY MANAGER 🏪
-# Topic: List Methods & Operations
-# Methods Practiced:
-# append(), insert(), remove(), pop(), sort(), reverse(),
-# clear(), count()
-# Other Concepts: len(), in, if-elif-else, while loop,
-# enumerate(), user input
-# Practiced and completed by: Maham Fayyaz
-# ============================================================
+# My Mini Project 9: Inventory Manager
+# Name: Maham Fayyaz
+# What it does: Add, insert, remove, update, check, count, sort, reverse,
+# and clear inventory items.
+# What I learned: lists, append, insert, remove, pop, sort, 
+# reverse, clear, count, len, enumerate
 print("==========INVENTORY MANAGER==========")
-print("1. 📦 View Inventory")
-print("2. ➕ Add Product")
-print("3. 📍 Insert Product")
-print("4. ❌ Remove Product")
-print("5. 🗑️ Remove Product by Index")
-print("6. 🔄 Update Product")
-print("7. 🔍 Check Product")
-print("8. 🔢 Count Product")
-print("9. 🔃 Sort Inventory")
-print("10. ↩️ Reverse Inventory")
-print("11. 🧹 Clear Inventory")
-print("12. 🚪 Exit")
-inventory = ["Boxing GLove", "Hand wrap", "Shin guard", "MMA Shorts"]
+print("1. View Inventory")
+print("2. Add Product")
+print("3. Insert Product")
+print("4. Remove Product")
+print("5. Remove Product by Index")
+print("6. Update Product")
+print("7. Check Product")
+print("8. Count Product")
+print("9. Sort Inventory")
+print("10. Reverse Inventory")
+print("11. Clear Inventory")
+print("12. Exit")
+inventory = ["Boxing Glove", "Hand Wrap", "Shin Guard", "MMA Shorts"]
 while True:
     choice = int(input("Enter your choice:")) 
     # 1. View Inventory
@@ -50,11 +46,11 @@ while True:
         product = input("Enter your product:")
         if product in inventory:
             inventory.remove(product)
-            print("your product remove successfully") 
+            print("Product removed successfully") 
         else:
-            print("product no found")
+            print("Product not found")
         print(inventory) 
-    # 5. remove peoduct with index
+    # 5. Remove product by index
     elif choice == 5:
         index = int(input("Enter your index number:"))
         if 0 <= index <len(inventory):
@@ -85,7 +81,7 @@ while True:
             print("Product is not available.")
         # 8. Count Product
     elif choice == 8:
-        print("Total products:", len(inventory))
+        print("Total Products:", len(inventory))
         product = input("Enter product to count: ")
         print(product, "appears",
               inventory.count(product),
@@ -111,12 +107,5 @@ while True:
         break
     else:
         print("Invalid choice. Please choose 1-12.")
-
-# ============================================================
-# DAY 9 MINI PROJECT COMPLETED ✅
-# Built an interactive Inventory Manager using Python Lists.
-# Practiced adding, inserting, removing, updating, checking,
-# counting, sorting, reversing, and clearing inventory items.
-# ============================================================
-
-
+# Mini Project day 9 complete.
+# This program is a menu-based inventory manager using lists.

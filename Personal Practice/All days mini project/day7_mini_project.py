@@ -1,36 +1,8 @@
-# ================================================================
-#              STUDENT GRADE & ELIGIBILITY ANALYZER
-# ================================================================
-# Project Type: Real-World Python Mini Project
-# Python Day: Day 7 - Conditions + Loops Integration
-# Created By: Maham Fayyaz
-#
-# Project Description:
-# This project analyzes multiple students based on their age,
-# marks, and attendance. It calculates each student's grade,
-# checks their eligibility, counts eligible and not eligible
-# students, and displays a final summary.
-#
-# Concepts Used:
-# - Variables
-# - Lists and Tuples
-# - for Loop
-# - if / elif / else
-# - Nested / Multiple Conditions
-# - and Operator
-# - Comparison Operators
-# - len()
-# - Counting with Accumulators
-# - Grade Calculation
-# - Eligibility Checking
-# - Multiple Students Processing
-# - Data Analysis
-# - Real-World Problem Solving
-#
-# Main Logic:
-# Student Data → Grade Calculation → Eligibility Check
-# → Student Result → Counting → Final Summary
-# ================================================================
+# My Mini Project 7: Student Grade & Eligibility Analyzer
+# Name: Maham Fayyaz
+# What it does: Calculates grades and eligibility for multiple students
+# based on age, marks, and attendance.
+# What I learned: for loop, if-elif-else, and operator, accumulators, tuples
 
 
 
@@ -64,9 +36,6 @@ for name, age, marks, attendance in students:
     else:
         eligibility = "Not Eligible"      
         not_eligible_count = not_eligible_count + 1               
-    print(name, age, marks, attendance)
-    print(name, grade)
-    print(name, eligibility)
     print("--------------------------------")
     print("Student:", name)
     print("Age:", age)
@@ -83,19 +52,5 @@ print("Not Eligible Students:", not_eligible_count)
 print("================================================================")
 print("Student Grade & Eligibility Analyzer Completed")
 print("================================================================")
-
-
-
-# ================================================================
-# Project Completed Successfully
-#
-# What I Practiced:
-# I practiced processing multiple students using lists, tuples,
-# for loops, conditions, comparison operators, the and operator,
-# grade calculation, eligibility checking, and counting.
-#
-# Project Outcome:
-# The program successfully calculates student grades, determines
-# eligibility based on age, marks, and attendance, and displays
-# the total number of eligible and not eligible students.
-# ================================================================
+# Mini Project day 7 complete.
+# This program calculates grades and eligibility for multiple students.

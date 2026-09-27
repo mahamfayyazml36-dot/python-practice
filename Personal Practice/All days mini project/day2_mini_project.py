@@ -1,4 +1,8 @@
-# Mini Project 2: Student Information & Data Types
+
+# My Mini Project 2: Student Information & Data Types
+# Name: Maham Fayyaz
+# What it does: Shows student information and their data types.
+# What I learned: variables, data types, type()
 name = "Maham Fayyaz"
 age = 19
 height = 5.2
@@ -12,4 +16,6 @@ print("----Data Type----")
 print("Name:", type(name))
 print("Age:", type(age))
 print("Height:", type(height))
-print("IS_Student:", is_student)
+print("Student:", type(is_student))
+# Mini Project day 2 complete.
+# This program shows student information and data types.

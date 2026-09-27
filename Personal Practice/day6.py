@@ -1,13 +1,6 @@
-# ================================================================
-# Day 6 - Control Flow Practice
-# Break, Continue and Pass
-# ================================================================
-# Practice Description:
-# This practice focuses on break, continue, and pass statements
-# with for and while loops.
-# It also includes mixed control-flow exercises using conditions,
-# lists, strings, and counters.
-# ================================================================
+# My Day 6 Python Practice
+# Name: Maham Fayyaz
+# What I learned today: break, continue, pass
 
 # break with for
 # 1
@@ -35,12 +28,12 @@ for count in range(1, 10):
     print(count) 
 # 2
 name = "Maham"
-for charector in name:
-    if charector == "h":
+for character in name:
+    if character == "h":
         continue
-    print(charector)
+    print(character)
 # 3
-names = ["Php lerval", "Java", "Java scripts"]
+names = ["PHP laravel", "Java", "JavaScript"]
 for name_list in names:
     if name_list == names[1]:
         continue
@@ -59,13 +52,13 @@ name = "Maham Fayyaz"
 index = 0
 while index < len(name):
     if name[index] == "a":
-        index =index + 1
+        index = index + 1
         continue
     print(name[index])
     index = index + 1
 
 # 3 
-names = ["Maham", "Dr.soren", "Leon", "PHP"]
+names = ["Maham", "Dr. Soren", "Leon", "PHP"]
 number = 0
 while number < len(names):
     if names[number] == names[2]:
@@ -73,7 +66,7 @@ while number < len(names):
         continue
     print(names[number])
     number = number + 1
-# for + pass Practice
+# for + pass practice
 # 1
 for number in range(1, 11):
     if number == 8:
@@ -103,12 +96,12 @@ while number < len(course):
     print(course[number])
     number = number + 1
 
-# Mixed Practice — for loop (pass, continue, break)
+# Mixed practice — for loop (pass, continue, break)
 
 # 1
-numbers =[2, 5, 6, 7, 9, 11, 14, 17, 20] 
+numbers = [2, 5, 6, 7, 9, 11, 14, 17, 20] 
 for number in numbers:
-    if number%2 == 0:
+    if number % 2 == 0:
         continue
     elif number == 17:
         break
@@ -116,15 +109,15 @@ for number in numbers:
         print(number)
 # 2
 numbers = [2, 5, 8, 10, 13, 15, 17, 20]
-for numbere in numbers:
-    if numbere%2 == 0:
+for number in numbers:
+    if number % 2 == 0:
         continue
-    elif numbere == 13:
+    elif number == 13:
         pass
-    elif numbere == 17:
+    elif number == 17:
         break
     else:
-        print(numbere)
+        print(number)
 # while + break + continue + pass
 number = 1
 while number <= 15:
@@ -141,11 +134,6 @@ while number <= 15:
         print(number)
         number = number + 1
 
-
-# ================================================================
-# Day 6 Practice Completed
-# Concepts Practiced:
-# break, continue, pass, for loop, while loop,
-# if/elif/else, lists, strings, len(), counters,
-# and basic control-flow problem solving.
-# ================================================================
+# Today's practice is complete.
+# I practiced break, continue, pass with for and while loops,
+# using lists, strings, conditions, and counters.

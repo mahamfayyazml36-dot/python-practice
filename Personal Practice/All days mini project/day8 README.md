@@ -1,42 +1,38 @@
-🛒 Day 8 — Shopping List Management Program
+# Mini Project 8 - Shopping List Management Program
 
-A beginner-friendly Python mini project that manages a shopping list using Lists, Conditions, Loops, and List Methods.
+This is my eighth Python mini project (Day 8 - Lists).
 
-📌 Project Overview
+## Concepts Practiced
+- Lists
+- append()
+- insert()
+- remove()
+- pop()
+- len()
+- enumerate()
+- if / elif / else
+- while loop
 
-This project is a menu-based Shopping List Management Program.
-The user can add, insert, view, check, remove, update, and count shopping items.
+## What It Does
+The program is a menu-based shopping list manager.
+You can:
+1. Add items (3 at a time)
+2. Insert item at a specific index
+3. View shopping list
+4. Check item availability
+5. Remove item
+6. Remove item by index
+7. Update item
+8. Count total items
+9. Exit
 
-🎯 Features
-Add Item — Add three items to the shopping list.
-Insert Item — Insert an item at a specific index.
-View Shopping List — Display all items with their numbers.
-Check Item — Check whether an item is available.
-Remove Item — Remove an item by its value.
-Remove Item by Index — Remove an item using its index.
-Update Item — Replace/update an existing item.
-Count Items — Count the total number of items.
-Exit — Exit the program.
-🧠 Python Concepts Practiced
-Variables
-input()
-print()
-int()
-Lists
-Indexing
-Updating List Items
-append()
-insert()
-remove()
-pop()
-len()
-for loop
-while loop
-if / elif / else
-in operator
-enumerate()
-break
-💻 Example
+## How to Run
+1. Open the file in Python.
+2. Run it.
+3. Choose an option (1-9).
+4. Follow the prompts.
+
+## Example Output
 ========== SHOPPING LIST PROGRAM ==========
 1. Add Item
 2. Insert Item
@@ -56,14 +52,5 @@ Enter your Third Item: Eggs
 
 Items added successfully!
 ['Milk', 'Bread', 'Eggs']
-📚 What I Learned
-
-In this project, I practiced how to combine Python Lists with Conditions and Loops to create a complete menu-based program.
-
-I also learned how different list methods can be used to add, remove, update, search, and count items.
-
-✅ Project Status
-
-Day 8 — Completed Successfully! 🎯🐍
-
-This project helped me understand how individual Python concepts can be combined to build a functional mini project.
+## Author
+Maham Fayyaz

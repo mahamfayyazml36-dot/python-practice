@@ -1,41 +1,9 @@
-# ============================================================
-# Python Practice - Day 4: for Loop
-#
-# Practiced and completed by: Maham Fayyaz
-# This practice was completed independently while learning
-# Python programming.
-#
-# Topics Covered:
-# - Basic for Loop
-# - range(stop)
-# - range(start, stop)
-# - range(start, stop, step)
-# - Reverse range()
-# - for Loop with Strings
-# - for Loop with if Condition
-# - Character Searching
-# - Character Counting
-# - for...else
-# - break with for Loop
-# - continue with for Loop
-# - for Loop with Lists
-# - for + if with Lists
-# - for Loop with Tuples
-# - for Loop with Dictionaries
-# - Nested for Loops
-# - Nested Lists with for Loops
-# - enumerate() with for Loop
-# - zip() with for Loop
-# - Multiple Values with for Loop
-# - Real-World Practice
-# - AI/Data Science Related for Loop Examples
-# ============================================================
-
-
 # My Day 4 Python Practice
+# Name: Maham Fayyaz
+# What I learned today: for loop, range(), break, continue, enumerate(), zip()
 
 
-# =========== for loop ===========
+# for loop
 
 # Practice 1
 
@@ -52,21 +20,21 @@ name = "Maham Fayyaz"
 for a in range(5):
     print(name)    
 
-# =========== range() ===========
+# range()
 
-# 1️ range(stop)
+# 1️. range(stop)
 
 print("====range 1===")
 for number in range (5):
     print(number)
 
-# 2 range(start, stop)
+# 2. range(start, stop)
 
 print("===range 2===")
 for b in range(2, 8):
     print(b)
 
-# 3 range(start, stop, step) 
+# 3. range(start, stop, step) 
 
 print("===range 3===")  
 for x in range(3, 33, 3):
@@ -102,11 +70,11 @@ for ff in range(12, 1, -1):
 # Practice 5
 
 print("===Practice 5===")
-#number = 5
+# number = 5
 for a in range (6, 66, 6):
     print(a)         
 
-# =========== for loop with strings ===========
+# for loop with strings
 
 # Practice 1
 
@@ -132,7 +100,7 @@ goal = "AI"
 for final_goal in goal:
     print(final_goal)    
 
-# =========== for loop + if condition ===========
+# for loop + if condition
 
 # Practice 1
 
@@ -141,7 +109,7 @@ for letter in word:
     if letter == "o":
         print("Found o!")
 
-# practice 2
+# Practice 2
 
 character = "My Final Goal is AI Researcher"
 
@@ -176,7 +144,7 @@ for vowel_word in names:
         print("Found Vowel Word:", vowel_word )
 
 
-# practice 5
+# Practice 5
 
 word = "Italy"
 
@@ -218,7 +186,7 @@ for aquawa in sentence:
 
         count += 1  
 
-print("There letter a appears", count, "times.")                      
+print("The letter a appears", count, "times.")                      
 
 # Practice 7
 
@@ -230,7 +198,7 @@ for user_name in name:
 
         print("Found capital M ")
         
-# for ... else        
+# for...else        
 
 # Practice 1 
 
@@ -281,7 +249,7 @@ for number_A in range(1, 21):
 # Practice 3
 
 print("====== Practice 3 break with for ======")
-name = "Leon jaffri"
+name = "Leon Jaffri"
 
 for letters in name:
     
@@ -413,7 +381,7 @@ for number in number_in_subject:
         print(number)
 
 # for loop with Dictionaries
-#Practice1
+# Practice 1
 print("======Practice 1 for loop with Dictionaries ======")
 print("====Key====")
 student = {
@@ -425,7 +393,7 @@ student = {
 }        
 for data in student:
     print(data)
-#Practice 2
+# Practice 2
 
 print("======Practice 2 for loop with Dictionaries ======")
 print("===value===")
@@ -572,7 +540,7 @@ print("====== Nested Lists — Practice 1 ======")
 courses = [
     ["AI", "Ml"],
     ["NLP", "MLOPs", "AI Ethics"],
-    ["COMPUTER BASICS", "Deep Learning", "Cloud", "CHatgpt"]
+    ["COMPUTER BASICS", "Deep Learning", "Cloud", "ChatGPT"]
 ]
 for gml in courses:
     for course in gml:
@@ -599,11 +567,11 @@ print("====== Nested Lists — Practice 3 __ Break ======")
 shop = [
     ["bag", "cloth"],
     ["Books", "Copies", "stationary"],
-    ["Laptop", "Head Phone", "Air birds", "Bike"]
+    ["Laptop", "HeadPhone", "Airpods", "Bike"]
 ]
 for shopes in shop:
     for group_section in shopes:
-        if group_section == "Air birds":
+        if group_section == "Airpods":
             break
         print(group_section)
 
@@ -620,12 +588,12 @@ for college in school:
         if schools == "TEACHER1":
             continue
         print(schools)
-# REAL WORLD PRACTICE
+# Real World Practice
 
 print("====== Real World Practice 1 ======")
 
 shopping = [
-    ["Maham", "LAPTOP", "HEAD PHONE"],
+    ["Maham", "LAPTOP", "HEADPHONE"],
     ["ALi", "Shoes", "Jacket"]
 ]
 
@@ -637,7 +605,7 @@ for shoping in shopping:
         print(data) 
 
 # enumerate() with for
-#Practice 1
+# Practice 1
 print("====== Practice 1 enumerate() with for ======")
 
 course = ["AI", "ML", "DL", "Cloude", "NLP"]
@@ -647,7 +615,7 @@ for index, courses in enumerate(course):
 # Practice 2
 print("====== Practice 2 enumerate() with for ======")
 
-name = ["Maham", "Muhammad Ali", "Maria", "Mafia", "Jannat", "Noor Salam", "Muhamma Fiaz", "Shameem Fiaz"]
+name = ["Maham", "Muhammad Ali", "Maria", "Mafia", "Jannat", "Noor Salam", "Muhammad Fiaz", "Shameem Fiaz"]
 for index, names in enumerate(name, start=1):
 
     print(index, names)
@@ -754,7 +722,7 @@ for student, mark, book in zip(students, marks, books):
         print(student, mark, book, "Fail!")
 
 
-# INPUT METHOD 
+# Input Method
 name = input("Enter your Name:")
 age = input("Enter your Age:")
 height = input("Enter your Height:")
@@ -762,15 +730,15 @@ city = input("Enter your city:")
 country = input("Enter your country:")
 college_name = input("Enter your College Name:")
 education = input("Enter your Education:")
-field = input("Enter your feild:")
-print(f"My name is {name}.I am {age} years old.My height is {height}.I am live in {city}, {country}.I studied at {college_name}. I learned {education} and my field is {field}.")
+field = input("Enter your field:")
+print(f"My name is {name}.I am {age} years old.My height is {height}.I live in {city}, {country}.I studied at {college_name}. I learned {education} and my field is {field}.")
 
-# NORMAL PRINT
+# Normal print
 # 1.
 print("My name is", "MAHAM FAYYAZ.")
-#2.
+# 2.
 print("Hello", "How are you?")
-#3.
+# 3.
 print("I am fine.", "What about you Bro?")
 
 # Using Separator
@@ -781,13 +749,13 @@ print("Hello", "World.", sep=" Old ")
 print("HI", end=" ")
 print("Maria Fayyaz.")
 
-# Using Escap Sequences
+# Using Escape Sequences
 print("HELLO!\nHow are you?")          # Using \n
 print("My name is Maham Fayyaz.\nI am 19 years old.")
 print("My college name is\tGovt Graduate College For Women HajjiPura Sialkot." )  # Using \t
 print("Hello my \"Ai sir\"")    # Using ""
 
-# f-String and .f format
+# f-String and .format
 
 #1.
 name = "Maham Fayyaz"
@@ -798,68 +766,7 @@ print("My name is {}.I get in metric {}%.".format(name,percentage))
         
 
 
-# ============================================================
-# DAY 4 SUMMARY & KEY TAKEAWAYS
-# ============================================================
-# 1. Basic for Loop:
-#    - Learned how to repeat a block of code using a for loop.
-#
-# 2. range():
-#    - Practiced range(stop).
-#    - Practiced range(start, stop).
-#    - Practiced range(start, stop, step).
-#    - Practiced reverse ranges using a negative step.
-#
-# 3. for Loop with Strings:
-#    - Learned how to iterate through characters in a string.
-#
-# 4. for Loop with if:
-#    - Practiced checking conditions while looping.
-#    - Used loops for character searching and counting.
-#
-# 5. for...else:
-#    - Practiced using else with a for loop.
-#
-# 6. break:
-#    - Practiced stopping a for loop when a specific condition
-#      becomes True.
-#
-# 7. continue:
-#    - Practiced skipping the current iteration and continuing
-#      with the next iteration.
-#
-# 8. for Loop with Lists:
-#    - Practiced iterating through list elements.
-#    - Combined for loops with if conditions.
-#
-# 9. for Loop with Tuples:
-#    - Practiced iterating through tuple elements.
-#
-# 10. for Loop with Dictionaries:
-#     - Practiced accessing dictionary keys.
-#     - Practiced accessing dictionary values using values().
-#     - Practiced accessing keys and values using items().
-#
-# 11. Nested for Loops:
-#     - Practiced using one for loop inside another for loop.
-#
-# 12. Nested Lists:
-#     - Practiced iterating through lists containing other lists.
-#
-# 13. enumerate():
-#     - Practiced getting both index and value while looping.
-#     - Used enumerate() with lists, strings and nested lists.
-#
-# 14. zip():
-#     - Practiced looping through multiple collections together.
-#
-# 15. Real-World Practice:
-#     - Applied for loops to shopping, products, students,
-#       courses and other practical examples.
-#
-# 16. AI/Data Science Practice:
-#     - Practiced loop-based conditions using examples related
-#       to AI, ML and data-oriented situations.
-#
-# Status: Day 4 for Loop Practice Completed Successfully!
-# ============================================================
+# Today's practice is complete.
+# I learned for loop, range(), for with strings, for with if,
+# for...else, break, continue, lists, tuples, dictionaries,
+# nested loops, enumerate(), and zip().

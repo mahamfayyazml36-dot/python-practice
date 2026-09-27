@@ -1,52 +1,37 @@
-# ============================================================
-# Python Practice - Variables, Data Types, print() and input()
-#
-# Practiced and completed by: Maham Fayyaz
-# This practice was completed independently while learning
-# Python programming.
-#
-# Practice Topics:
-# - Creating and Using Variables
-# - String, Integer, Float and Boolean Data Types
-# - Printing Values using print()
-# - Taking User Input using input()
-# - Storing User Input in Variables
-# - Using Variables in Text
-# - Creating a Simple "About Me" Program
-# ============================================================
-
 # My Day 1 Python Practice
+# Name: Maham Fayyaz
+# What I learned today: variables, data types, print() and input()
 
 
-                 # VARIABLE
-name="JANNAT FAYYAZ"
-age=20
-height=5.1
-student=True
+# Variable
+name = "JANNAT FAYYAZ"
+age = 20
+height = 5.1
+student = True
 print(name, age, height, student)
 print(name)
 print(age)
 print(height)
 print(student)
-                    #DATA TYPE
-                    # STRING
-country="PAKISTAN"
-                    #INTEGER
-state_bank=1
-                    #Float
-k2_height=8611 #meters
-                    #BOOLEAN
-k2_is_this_in_pakistan=True
-                    #PRINT
+# Data type
+# String
+country = "PAKISTAN"
+# Integer
+state_bank = 1
+# Float
+k2_height = 8611 # meters
+# Boolean
+k2_is_this_in_pakistan = True
+# Print
 print("Pakistan has a strong military and many talented people in different fields.")
-                    #INPUT
-country=input("Enter your Country Name:")
-passion=input("Enter your Passion:")
-second_passion=input("Enter your second passion:")
+# Input
+country = input("Enter your Country Name:")
+passion = input("Enter your Passion:")
+second_passion = input("Enter your second passion:")
 print("What is your Country Name:",country)
 print("What is your favourite passion:",passion)    
 print("and second passion:",second_passion)
-                     # About Me
+# About Me
 name=input("Enter your name:")
 age=input("Enter your Age:")  
 favourite_programming_language="Python"
@@ -68,32 +53,13 @@ print("Leon: NO Maham")
 print("Maham: Ok, I will tell you my favourite programming language is", favourite_programming_language, "and my favourite color is", favourite_color)
 print("Nice Choice Maham")
 
-                        # Print Method
+# Print Method
 print("Assalam-o-alaikum! Classs------")
 print("Waalaikum salam")
 print("Kesy hein teacher aab kia aap ki tabiyat theek hai?")
 print("GG bilkul student theek hun mein. aap sub kesy hein? ")
 print("aaj ki lesson read klrna hai ? Kia koi bataye ga?")
-# ============================================================
-# PYTHON PRACTICE SUMMARY & KEY TAKEAWAYS
-# ============================================================
-# 1. Variables:
-#    - Practiced creating variables to store different values.
-#    - Stored information such as name, age, height and student status.
-#
-# 2. Data Types:
-#    - Practiced String, Integer, Float and Boolean data types.
-#
-# 3. print():
-#    - Used print() to display text, variables and values.
-#
-# 4. input():
-#    - Used input() to take information from the user.
-#    - Stored the entered information in variables.
-#
-# 5. Practical Practice:
-#    - Created a simple "About Me" program.
-#    - Used variables, input(), print() and f-strings together.
-#
-# Status: Python Practice Completed Successfully!
-# ============================================================
+
+# Today's practice is complete.
+# I learned variables, data types, print() and input().
+# I also made an "About Me" program with Leon.

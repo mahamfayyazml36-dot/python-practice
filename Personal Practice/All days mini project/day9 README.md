@@ -1,98 +1,54 @@
-# 🏪 Day 9 — Inventory Manager
+# Mini Project 9 - Inventory Manager
 
-This is my **Day 9 Python mini project**.
+This is my ninth Python mini project (Day 9 - List Methods).
 
-I built a menu-based **Inventory Manager** to practice Python Lists, List Methods, Conditions, and Loops.
+## Concepts Practiced
+- Lists
+- append()
+- insert()
+- remove()
+- pop()
+- sort()
+- reverse()
+- clear()
+- count()
+- len()
+- in
+- enumerate()
+- if / elif / else
+- while loop
 
-## 📌 Project Features
+## What It Does
+The program is a menu-based inventory manager.
+You can:
+1. View inventory
+2. Add product
+3. Insert product
+4. Remove product
+5. Remove product by index
+6. Update product
+7. Check product
+8. Count products
+9. Sort inventory
+10. Reverse inventory
+11. Clear inventory
+12. Exit
 
-The program provides 12 options:
+## How to Run
+1. Open the file in Python.
+2. Run it.
+3. Choose an option (1-12).
+4. Follow the prompts.
 
-1. 📦 View Inventory
-2. ➕ Add Product
-3. 📍 Insert Product
-4. ❌ Remove Product
-5. 🗑️ Remove Product by Index
-6. 🔄 Update Product
-7. 🔍 Check Product
-8. 🔢 Count Product
-9. 🔃 Sort Inventory
-10. ↩️ Reverse Inventory
-11. 🧹 Clear Inventory
-12. 🚪 Exit
-
-## 🧠 Concepts Practiced
-
-* Python Lists
-* `append()`
-* `insert()`
-* `remove()`
-* `pop()`
-* `sort()`
-* `reverse()`
-* `count()`
-* `clear()`
-* `len()`
-* `in` operator
-* List indexing
-* List updating
-* `for` loop
-* `while` loop
-* `if / elif / else`
-* `input()`
-* `int()`
-* `enumerate()`
-* `break`
-
-## 💻 Initial Inventory
-
-The program starts with:
-
-```python
-inventory = [
-    "Boxing Glove",
-    "Hand wrap",
-    "Shin guard",
-    "MMA Shorts"
-]
-```
-
-## ⚙️ How It Works
-
-The program displays a menu and asks the user to select an option.
-
-For example:
-
-```text
+## Example Output
 ========== INVENTORY MANAGER ==========
-1. 📦 View Inventory
-2. ➕ Add Product
-3. 📍 Insert Product
-4. ❌ Remove Product
-5. 🗑️ Remove Product by Index
-6. 🔄 Update Product
-7. 🔍 Check Product
-8. 🔢 Count Product
-9. 🔃 Sort Inventory
-10. ↩️ Reverse Inventory
-11. 🧹 Clear Inventory
-12. 🚪 Exit
-```
+1. View Inventory
+2. Add Product
+...
+Enter your choice: 2
+Enter your new product: Boxing Gloves
+Product added successfully
+['Boxing Glove', 'Hand Wrap', 'Shin Guard', 'MMA Shorts', 'Boxing Gloves']
 
-The user can then manage the inventory using different list operations.
-
-## 🎯 Learning Goal
-
-The goal of this project was to understand how Python List Methods and Operations can be used to build a practical, menu-based program.
-
-## 📁 File
-
-```text
-day9_mini_project.py
-```
-
-## ✅ Day 9 Completed
-
-I practiced and integrated Python Lists, List Methods, Conditions, and Loops to build a complete **Inventory Manager**.
-
-**Day 9 — List Methods & Operations Completed Successfully! 🎯🐍**
+## Author
+Maham Fayyaz

@@ -1,10 +1,8 @@
-# ============================================================
-# DAY 8 — PYTHON LISTS PRACTICE
-# Topics: List, Indexing, Replace, append, insert,
-# remove, pop, len, for loop, if condition
-# ============================================================
+# My Day 8 Python Practice
+# Name: Maham Fayyaz
+# What I learned today: lists (indexing, append, insert, remove, pop, len)
 
-foods = ["BIryani", "Cack", "Apple"]
+foods = ["Biryani", "Cake", "Apple"]
 
 print(foods)
 
@@ -18,45 +16,42 @@ print(intro[2])
 print(foods[2])
 
 
-foods[1]="cake"     #REPLACE
-foods[0]="Pizza"    # REPLACE
+foods[1] = "cake"     # Replace
+foods[0] = "Pizza"    # Replace
 print(foods)
 
 
-foods.append("Ice-Cream")
-foods.append("Burger")       # ADD NEW ITEM
+foods.append("Ice Cream")
+foods.append("Burger")       # Add new item
 print(foods)
 
 
 foods.insert(0, "Chocolate")
-foods.insert(1,"Biryani")       # Insert 
+foods.insert(1, "Biryani")       # Insert 
 print(foods)
 
 
-foods.remove("Apple")       # REMOVE ITEM
+foods.remove("Apple")       # Remove item
 print(foods)
 
 
-foods.pop(0)               # REMOVE ITEM BUT INDEX THROUGH
+foods.pop(0)               # Remove item by index
 intro.pop()
 print(foods)
 print(intro)
 
 
-print("Tota item in list of foods:",len(foods))          # length
-print("Total item in list of intro:",len(intro))
+print("Total item in list of foods:", len(foods))          # Length
+print("Total item in list of intro:", len(intro))
 
 
-for food in foods:               # FOR LOOP WITH LIST
+for food in foods:               # for loop with lists
     print(food)
 
 
 for food in foods:
     if food == "Biryani":
         print("Biryani available in this list of foods")    
-
-
-# ============================================================
-# DAY 8 — LISTS PRACTICE COMPLETED ✅
-# Next: MINI PROJECT — SHOPPING LIST PROGRAM 🛒
-# ============================================================        
+# Today's practice is complete.
+# I practiced lists: indexing, replace, append, insert,
+# remove, pop, len, for loop, and if condition.

@@ -1,18 +1,12 @@
-# Kaggle - Intro to Programming
-# Day 3: Data Types
-# Topics Covered:
-# - Integer Data Type (int)
-# - Float Data Type (float)
-# - Boolean Data Type (bool)
-# - String Data Type (str)
-# - type() Function
-# - len() Function
-# - Type Conversion (String to Float)
-# - Basic Operations with Strings
+# My Kaggle Practice - Day 3
+# Name: Maham Fayyaz
+# What I learned today: data types (int, float, bool, str), 
+# type(), len(), type conversion
+# Course: Kaggle - Intro to Programming
 
 # Data Types
 
-# integer 
+# Integer 
 
 # 1.
 
@@ -96,25 +90,7 @@ print(list_check)
 teen_age = "hhh" + "yyy"
 print(teen_age)
 print(type(teen_age))
-
-# ============================================================
-# DAY 3 SUMMARY & KEY TAKEAWAYS
-# ============================================================
-# 1. Fundamental Data Types:
-#    - int: Whole numbers (e.g., 12, 3).
-#    - float: Decimal numbers (e.g., 15.55, 2.5256). Note: Division (/) always outputs float.
-#    - bool: Logical True or False values (often generated via logical operations or 'not').
-#    - str: Text enclosed in quotes (e.g., "Hello World!").
-
-# 2. Key Built-in Functions Used:
-#    - type(): Checks the data type of any variable.
-#    - len(): Calculates string length (including spaces and symbols).
-#    - round(): Rounds floats to a specified number of decimal places.
-#    - float(): Converts string representation of numbers into actual float values.
-
-# 3. String Manipulation Tricks:
-#    - String Concatenation: Joining strings using '+' (e.g., "hhh" + "yyy").
-#    - String Multiplication: Repeating strings using '*' (e.g., "ABC" * 3 -> "ABCABCABC").
-
-# Status: All Kaggle Day 3 Concepts Covered & Successfully Tested!
-# ============================================================
+# Today's practice is complete.
+# I practiced data types: int, float, bool, str, and functions like
+# type(), len(), round(), float().
+# This is my Kaggle Day 3 practice.

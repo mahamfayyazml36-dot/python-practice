@@ -1,32 +1,34 @@
-# 🐍 Mini Project 2 — Data Types Practice
+# Mini Project 2 - Student Information & Data Types
 
 This is my second Python mini project.
 
-In this project, I practiced the basic Python data types:
+## Concepts Practiced
+- Variables
+- Data Types (string, integer, float, boolean)
+- print()
+- type()
 
-* **String (`str`)** — used for text
-* **Integer (`int`)** — used for whole numbers
-* **Float (`float`)** — used for decimal numbers
-* **Boolean (`bool`)** — used for True or False values
+## What It Does
+The program stores student information (name, age, height, student status)
+and displays the information along with their data types.
 
-## 📌 Concepts Practiced
+## How to Run
+1. Open the file in Python.
+2. Run it.
+3. See the student information and data types.
 
-* Variables
-* Python Data Types
-* `type()`
-* `print()`
+## Example Output
+----Student Information----
+Name: Maham Fayyaz
+Age: 19
+Height: 5.2
+Student: True
 
-## 💻 Example
+----Data Type----
+Name: <class 'str'>
+Age: <class 'int'>
+Height: <class 'float'>
+is_student: <class 'bool'>
 
-```python
-name = "Maham"
-age = 19
-height = 5.2
-is_student = True
-```
-
-The program displays the student's information and shows the data type of each variable.
-
-## 🎯 Goal
-
-The goal of this project is to understand and practice the four basic Python data types.
+## Author
+Maham Fayyaz

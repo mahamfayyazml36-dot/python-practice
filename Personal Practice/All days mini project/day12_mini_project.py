@@ -1,25 +1,25 @@
-# ============================================================
-# DAY 12 — MINI PROJECT: STUDENT DATABASE
-# Topic: Dictionaries & Nested Dictionaries
-# Features: View, Search, Add, Update & Delete Students
-# Practiced and completed by: Maham Fayyaz
-# ============================================================
+# My Mini Project 12: Student Database
+# Name: Maham Fayyaz
+# What it does: View, search, add, update, and delete students 
+# using dictionaries.
+# What I learned: dictionaries, nested dictionaries, 
+# items, pop, in, while loop, if-elif-else
 
 students = {
-    "Maham" :{
-        "Age" : 19,
-        "Course" : "Python",
-        "City" : "Sialkot"
+    "Maham": {
+        "Age": 19,
+        "Course": "Python",
+        "City": "Sialkot"
     },
-    "Ali" :{
-        "Age" : 18,
-        "Course" : "AI",
-        "City" : "Islamabad"
+    "Ali": {
+        "Age": 18,
+        "Course": "AI",
+        "City": "Islamabad"
     },
-    "Ayesha" : {
-        "Age" : 23,
-        "Course" : "MLOPs",
-        "City" : "Lahore"
+    "Ayesha": {
+        "Age": 23,
+        "Course": "MLOps",
+        "City": "Lahore"
     }
 }
 print(students)
@@ -86,7 +86,7 @@ while True:
         delete_name = input("Enter student name to delete:")
         if delete_name in students:
             students.pop(delete_name)
-            print("Student delete successfully!")
+            print("Student deleted successfully!")
         else:
             print("Student not found!")  
     elif choice == 6:
@@ -94,22 +94,5 @@ while True:
         break
     else:
         print("Invalid choice! Please select a number (1-6).")
-
-
-
-# ============================================================
-# DAY 12 MINI PROJECT COMPLETED ✅
-# Practiced:
-# - Dictionaries
-# - Nested Dictionaries
-# - Dictionary Access
-# - Adding Data
-# - Searching Data
-# - Updating Data
-# - Deleting Data
-# - items()
-# - pop()
-# - in operator
-# - while loop
-# - if / elif / else
-# ============================================================
+# Mini Project day 12 complete.
+# This program is a menu-based student database using dictionaries.

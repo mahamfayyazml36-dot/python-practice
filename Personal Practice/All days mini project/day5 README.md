@@ -1,98 +1,48 @@
-# 🍽️ Food Menu Ordering System
+# Mini Project 5 - Food Menu Ordering System
 
-## 📌 Project Overview
+This is my fifth Python mini project (Day 5 - While Loop).
 
-The Food Menu Ordering System is a beginner-level real-world Python mini project.
-
-The program allows a customer to:
-- Enter their name
-- View a food menu
-- Select Pizza, Burger, or Biryani
-- Enter the quantity
-- Validate the quantity
-- Calculate the total price
-- Order multiple items
-- Calculate the grand total
-- Exit the program
-- View a final bill
-
-## 🎯 Project Purpose
-
-The main purpose of this project is to practice Python `while` loops and programming logic by building a simple real-world application.
-
-## 🛠️ Technologies Used
-
-- Python
-
-## 🧠 Python Concepts Practiced
-
+## Concepts Practiced
 - Variables
-- `input()`
-- `int()`
-- `while True`
-- `if`
-- `elif`
-- `else`
-- Nested `if/else`
+- input() and int()
+- while True
+- if / elif / else
+- Nested if / else
 - Comparison operators
-- Arithmetic operators
-- `break`
+- break
+- Arithmetic operations
+- Accumulator (grand total)
 - Input validation
-- Accumulator / `grand_total`
-- User input
-- Real-world problem solving
 
-## 🍕 Available Menu
+## What It Does
+The program shows a food menu (Pizza, Burger, Biryani).
+The customer can:
+- Select food items
+- Enter quantity
+- See price and total
+- Exit and see the final bill
 
-| Choice | Food | Price |
-|-------:|------|------:|
-| 1 | Pizza | 1500 |
-| 2 | Burger | 500 |
-| 3 | Biryani | 200 |
-| 4 | Exit | - |
+It also validates the quantity (must be greater than 0).
 
-## 🔄 Program Flow
+## How to Run
+1. Open the file in Python.
+2. Run it.
+3. Enter customer name.
+4. Select food items by number.
+5. Enter quantity.
+6. Select 4 to exit and see the final bill.
 
-Customer Name  
-↓  
-Food Menu  
-↓  
-Food Selection  
-↓  
-Quantity Input  
-↓  
-Quantity Validation  
-↓  
-Price × Quantity  
-↓  
-Grand Total  
-↓  
-Exit  
-↓  
-Final Bill
-
-## 🧮 Example
-
-If the customer orders:
-
-- Pizza × 2 = 3000
-- Burger × 1 = 500
-
-Then:
-
-**Grand Total = 3500**
-
-## 📋 Example Output
-
-```text
+## Example Output
 Enter your customer name: Maham
 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 FOOD MENU
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 1. Pizza
 2. Burger
 3. Biryani
 4. Exit
-
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Enter your choice: 1
 You selected Pizza
 Enter the quantity of food: 2
@@ -100,24 +50,14 @@ Quantity: 2
 Pizza Price: 1500
 Total Price: 3000
 
-Enter your choice: 2
-You selected Burger
-Enter the quantity of food: 1
-Quantity: 1
-Burger Price: 500
-Total Price: 500
-
 Enter your choice: 4
 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 FINAL BILL
 Customer Name: Maham
-Grand Total: 3500
+Grand Total: 3000
 Thank you for ordering.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-## 👩‍💻 Author
-
-**Maham Fayyaz**
-
-## 📚 Learning Stage
-
-**Python Day 5 — While Loop**
+## Author
+Maham Fayyaz

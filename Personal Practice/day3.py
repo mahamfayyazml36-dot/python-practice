@@ -1,29 +1,13 @@
-# ============================================================
-# Python Practice - Day 3: Conditional Statements
-#
-# Practiced and completed by: Maham Fayyaz
-# This practice was completed independently while learning
-# Python programming.
-#
-# Topics Covered:
-# - if Statement
-# - if-else Statement
-# - if-elif-else Statement
-# - Nested if Statements
-# - Nested if-else Statements
-# - Nested if-elif-else Statements
-# - Logical Operators with if
-# - Using and, or and not with Conditions
-# - Building Conditions for Real-World Examples
-# ============================================================
-
 # My Day 3 Python Practice
+# Name: Maham Fayyaz
+# Part 1: Conditional Statements (if, if-else, if-elif-else, nested if)
+# Part 2: Hunarmand Python Day 1 (print, variables, data types, functions)
 
 
 # if statement
 age = 20
 if age >= 18:
-    print("your are adult!")
+    print("You are adult!")
 
 height = 5.2
 if height <= 5.6:
@@ -33,7 +17,7 @@ age = 45
 if age >= 40:
     print("Great!")
 
-#if else statement
+# if-else statement
 #1.
 age = 16
 if age >= 18:
@@ -43,9 +27,9 @@ else:
 #2.
 marks = 850
 if marks >= 750:
-    print("you are intelligent student.")
+    print("You are intelligent student.")
 else:
-    print("normal marks")  
+    print("Normal Marks")  
 #3.
 temperature = 52
 if temperature >= 40:
@@ -54,14 +38,14 @@ else:
     print("Today is cold!")  
 
 
-# if elif else statement
+# if-elif-else statement
 marks = 85
 if marks >= 90:
     print("Your grade: A")
 elif marks >= 80:
     print("Your grade: B") 
 elif marks >= 70:
-    print("your grade: C")
+    print("Your grade: C")
 else:
     print("You are fail!!!!")        
 
@@ -71,7 +55,7 @@ age = 25
 voter = True
 if age >= 18:
     if voter:
-        print("you can enter in pak militry acadamy.")
+        print("You can enter in Pakistan Military Academy.")
 #2.
 temperature = 30
 season_cold = True
@@ -91,15 +75,15 @@ if ice >= 12:
     if rain:
         print("Please you can go in home.")
 
-# Nested if else
+# Nested if-else
 #1.
 age = 18
 voter = False
 if age >= 18:
     if voter:
-        print("You can  adult for voting like noonleague or tehrike-insaf")
+        print("You can  adult for voting like Noon League or Tehreek-e-Insaf")
     else:
-        print("You need National Indentity Card" )
+        print("You need National Identity Card" )
 else:
     print("You are under 18.")
 #2.
@@ -123,7 +107,7 @@ if weather >= 20:
         print("Weather is warm but cleaner.")                   
 else:
     print("weather is too much cold.")
-#Nested if elif else
+# Nested if-elif-else
 #1.
 model_prediction = "positive"
 confidence = 0.86
@@ -148,32 +132,32 @@ if price >= 200000:
 else:
     print("Price is too low!") 
 
-#🐍 Logical Operators with if
+# Logical Operators with if
 #1. and (dunu condition true huni chahiye)
 model_accuracy = 92
 model_ready = True
 if model_accuracy >= 90 and model_ready: 
     print("Your model is ready for deployment!")
 else:
-    print("mdel need more work!") 
+    print("model need more work!") 
 # 2. or (kam az kam aik condition True honi chahiye)
 accuracy = 75
 f1_score = 90
 if accuracy >= 90 or f1_score >=85:
-    print("Matrix condition good!")
+    print("Model condition is good!")
 else:
-    print("Need more wor on model!") 
+    print("Need more work on model!") 
 #3. not 
 modelfailed = True
 if not modelfailed:
     print("Model is good working!") 
 else:
     print("Model is hectic")          
-       
-                     # HUNARMAND PYTHON — DAY 1
-#Topic: print()
-
-# Practice 1 — Basic print()
+print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")       
+# PART 2: HUNARMAND PYTHON — DAY 1
+# Topic: print(), variables, data types, functions
+print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")    
+# Practice 1 Basic print()
 
 print("Assalam-o-alaikum!")                     
 print("My name is Maham Fayyaz.")
@@ -241,7 +225,7 @@ print("Price:", price)
 print("Quantity:", quantity)
 print("Total:", price * quantity)
 
-# Prcatice 9
+# Practice 9
 
 student_name = "Jannat"
 father_name = "Fayyaz"
@@ -272,7 +256,7 @@ name = "Laiba Imtiaz"
 age = 18
 height = "6 feet"
 print(f"My cousin name,age is {name} {age} years old and height is {height}.")
-             # Now Day 3 start
+
 # Practice 1 variable + Assignment
 name = "Gelbro"
 age = 30
@@ -346,13 +330,13 @@ def intro():
     print("My name is leon.")
 intro()
 
-#Practice 9 Global variable
+# Practice 9 Global variable
 introduction = "How are you class?"
 def myfunc():
     print("Salam!" + introduction)
 myfunc()    
 
-#Practice 10 Global keyword
+# Practice 10 Global keyword
 x = "I am learning Python"
 def y():
     global x                # global keyword global variable ki  value ku change kr deta hai
@@ -361,9 +345,9 @@ y()
 print("you know " + x)
 
 # Practice 11 Local vs Global variable
-name = "Maham"   #global variable
+name = "Maham"   # global variable
 def y():
-    name = "Muhammad ali"     #Local variable
+    name = "Muhammad ali"     # Local variable
     print("inside function:" "My name is " + name)
 y()
 print("Outside function:" "and my sister name is " + name)
@@ -382,7 +366,7 @@ print(type(b))
 print(type(c))
 print(type(d))
 
-#Practice 13 List
+# Practice 13 List
 fruits = ["Orange", "banana", "Apple"]
 print(fruits)
 print(type(fruits))
@@ -405,7 +389,7 @@ number = range(0, 10)
 print(number)
 print(type(number))
 
-#Practice 15 Dict
+# Practice 15 Dict
 student ={
     "name" : "Maham",
     "age" : 19,
@@ -418,19 +402,19 @@ print(student["age"])
 print(student["height"])
 
 # Practice 16 
-#Set
+# Set
 Apps = {"Orange", "Apple","banana", "Apple"}
 print(Apps)
 print(type(Apps))
 
-#Practice 17 
-#Frozenset
+# Practice 17 
+# Frozenset
 fruit = frozenset(["12", "Orange", "green"])
 print(fruit)
 print(type(fruit))
 
 # Practice 18 
-#Boolean
+# Boolean
 is_student = True
 has_job = False
 print(is_student)
@@ -439,26 +423,26 @@ print(has_job)
 print(type(has_job))
 
 # Practice 19 
-#Byte
+# Byte
 y = b"Hello"
 print(y)
 print(type(y))
 
-#Practice 20 
-#Bytearray
+# Practice 20 
+# Bytearray
 y = bytearray(b"hello")
 print(y)
 print(type(y))
 
-#Practice 21 
-#memoryview
+# Practice 21 
+# memoryview
 y = bytearray(b"hello")
 view = memoryview(y)
 print(view)
 print(type(view))
 
-#Practice 22 
-#None
+# Practice 22 
+# None
 result = None
 print(result)
 print(type(result))
@@ -479,42 +463,8 @@ print(type(bool(number1)))
 text = "hello"
 print(bool(text))
 print(type(bool(text)))
-# ============================================================
-# DAY 3 SUMMARY & KEY TAKEAWAYS
-# ============================================================
-# 1. if Statement:
-#    - Learned how to execute code when a condition is True.
-#
-# 2. if-else Statement:
-#    - Learned how to execute different code depending on
-#      whether a condition is True or False.
-#
-# 3. if-elif-else Statement:
-#    - Practiced checking multiple conditions.
-#    - Used it to create a simple grading system.
-#
-# 4. Nested if:
-#    - Learned how to place one if statement inside another
-#      if statement.
-#
-# 5. Nested if-else:
-#    - Practiced multiple conditions using nested if and else
-#      statements.
-#
-# 6. Nested if-elif-else:
-#    - Practiced more complex decision-making using nested
-#      conditions.
-#
-# 7. Logical Operators with if:
-#    - Practiced 'and', 'or' and 'not' with conditional
-#      statements.
-#    - Used conditions with AI/ML examples such as model
-#      accuracy, confidence and deployment readiness.
-#
-# 8. Practical Practice:
-#    - Created different decision-making programs using
-#      real-world examples such as age, marks, weather,
-#      prices and AI model predictions.
-#
-# Status: Day 3 Conditional Statements Practice Completed Successfully!
-# ============================================================       
+# Today's practice is complete.
+# Part 1: I learned if, if-else, if-elif-else, nested if,
+#         nested if-else, nested if-elif-else, and logical operators.
+# Part 2: I revised print(), variables, data types, functions, lists,
+#         tuples, sets, and dictionaries.   

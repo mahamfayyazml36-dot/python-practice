@@ -1,46 +1,9 @@
-# =================================================================
-#                 🐍 PYTHON DAY 5 — WHILE LOOP
-# =================================================================
-# Project Type: Python Practice & Programming Logic
-# Learning Day: Day 5
-# Created By: Maham Fayyaz
-#
-# 📌 Overview:
-# This file contains my Day 5 Python practice focused on
-# while loops, user input, conditions, control flow,
-# validation, counters, accumulators, and problem solving.
-#
-# 🧠 Topics Practiced:
-# - Basic while loop
-# - Counter and increment
-# - Decrement / reverse counting
-# - Different step sizes
-# - Infinite loops and fixing infinite loops
-# - while with comparison operators
-# - while with Boolean conditions
-# - while + input()
-# - User-defined starting, ending and step values
-# - Input validation
-# - Valid / invalid input checking
-# - while + if / elif / else
-# - while + and / or / not
-# - break
-# - continue
-# - pass
-# - Counter
-# - Accumulator / total
-# - Even and odd numbers
-# - Sum and multiplication table
-# - Programming logic and problem solving
-#
-# 🎯 Learning Goal:
-# To understand how while loops work and how they can be
-# combined with conditions, user input, validation and
-# control-flow statements to solve practical problems.
-#
-# =================================================================
+# My Day 5 Python Practice
+# Name: Maham Fayyaz
+# What I learned today: while loop, break, continue, pass, input validation
+# Note: I wrote this code myself. Some comments and structure were helped by AI.
 
-# Part 1 — Basics
+# Part 1: Basics
 # Basic while loop
 number = 1
 while number <= 10:
@@ -51,7 +14,7 @@ numbers = 10
 while numbers <= 15:
     print(numbers)    
     numbers = numbers + 2
-# Decrement / Reverse counting0
+# Decrement / Reverse counting
 # Different step sizes
    
 # 1
@@ -62,10 +25,10 @@ while number >= 1:
     number = number - 1
 # 2
 print("Second")
-numbere = 20
-while numbere >= 1:
-    print(numbere)
-    numbere = numbere - 2
+number2 = 20
+while number2 >= 1:
+    print(number2)
+    number2 = number2 - 2
 # 3 
 print("Third")
 count  = 15
@@ -135,9 +98,9 @@ while True:
         print("Try again")    
 # 4
 while True:
-    number_1 = int(input("Enter your number 1:"))
-    number_2 = int(input("Enter your number 2"))
-    total = number_1 + number_2
+    number1 = int(input("Enter your number 1:"))
+    number2 = int(input("Enter your number 2"))
+    total = number1 + number2
     if total >= 50:
         print("Target reached!")
         break
@@ -149,7 +112,7 @@ while number <= 10:
     if number == 6:
         break
     print(number)
-    number =number + 1
+    number = number + 1
 # 6
 names = [
     ["maham", "Jannat", "maria"],
@@ -205,7 +168,7 @@ while index < len(words):
         index = index + 1
         continue
     print(word)
-    index =index + 1  
+    index = index + 1  
 # 11 
 text = ["Data science", "AI", "AI ethics", "Machine Learning"]
 number = 0
@@ -225,7 +188,7 @@ while logged_in:
 # 2
 message_available = True
 while message_available:
-    print("New message recieved!")
+    print("New message received!")
     message_available = False
 # 3
 correct_password = "Python12356"
@@ -233,10 +196,10 @@ password_correct = False
 while not password_correct:
     password = input("Enter your Password:")
     if password ==correct_password:
-        print("Login successfull.Your Password is correct.")
+        print("Login successful.Your Password is correct.")
         password_correct = True
     else:
-        print("Password are incorrect. Please try again!")    
+        print("Password is incorrect. Please try again!")    
 
 # while + input()
 # 1
@@ -249,7 +212,7 @@ while True:
 while True:
     name = input("Enter your name:")
     if name == "exit":
-        print("Programm stoped!")
+        print("Program stopped!")
         break
     else:
         age =input("Enter your age:")
@@ -276,31 +239,31 @@ while start <= end:
 
 number = int(input("Enter the number:"))
 if number > 0:
-    print("vailid number")
+    print("valid number")
 else:
-    print("Invailid number")    
+    print("Invalid number")    
 # 7
 while True:
     number = int(input("Enter the number:"))
     if number > 0:
-        print("Vailid number")
+        print("Valid number")
         break
     else:
-        print("Invailid number")   
+        print("Invalid number")   
 # 8
 while True:
     number = int(input("Enter the number:"))
     if 1 <= number <= 100:
-        print("Vailid number")
+        print("Valid number")
         break
     else :
-        print("Invailid number")            
+        print("Invalid number")            
 # while + if/elif/else         
 # 1
 while True:
     user = input("Enter the status of user:")
     if user == "online":
-        print("Please conntact here")
+        print("Please contact here")
         break
     elif user == "Offline":
         print("Please Don't call")
@@ -309,7 +272,7 @@ while True:
         print("Please Don't disturb")
         break
     else:
-        print("Invailid")    
+        print("Invalid")    
 # 2
 correct_username = "Maham"
 correct_password = "Python#@13"
@@ -318,25 +281,25 @@ while password_username_correct:
     name = input("Enter the user name:")
     password = input("Enter the password:")
     if name == correct_username and password == correct_password:
-        print("Successfull you are loggin")
+        print("Login successful")
         password_username_correct = False
         break
     else:
-        print("Invailid username and password!")
+        print("Invalid username and password!")
 
 # 3
 user_name = "My-dot"
-email ="mahamfayyazml36@gmail.com"
+email ="kijol123@gmail.com"
 username_email = False
 while True:
     username= input("Enter the user name:")
     emails = input("Enter the email:") 
-    if username == user_name or emails == email :
-        print("Vailid")
+    if username == user_name and emails == email :
+        print("Valid")
         username_email = True
         break
     else:
-        print("Invailid")    
+        print("Invalid")    
 
 # 4
 correct_password = "Pythonhjhdasj#$@"
@@ -344,11 +307,11 @@ password_correct = False
 while not password_correct:
     password = input("Enter the password:")
     if password == correct_password:
-        print("Loggin successfull")
+        print("Login successful")
         password_correct = True
         break
     else:
-        print("Invailid!")
+        print("Invalid!")
 # Part 4
 # 1
 number = 1
@@ -356,7 +319,7 @@ while number <= 5:
     if number == 3:
         pass
     print(number) 
-    number =number + 1       
+    number = number + 1       
 # 2
 numbers = 10
 while numbers <= 15:
@@ -377,7 +340,7 @@ while number <= 18:
     number = number + 1 
 print("Total:", total)       
 
-# part 5
+# Part 5
 # 1
 number = 2
 while number <= 15:
@@ -418,38 +381,6 @@ print("================================================")
 
 
 
-# =================================================================
-#                    ✅ DAY 5 COMPLETED
-# =================================================================
-#
-# 📚 What I Learned:
-# Through this practice, I learned how to use while loops
-# for repetition and how to control loops using break,
-# continue and pass.
-#
-# I also practiced:
-# - User input handling
-# - Input validation
-# - Boolean conditions
-# - Comparison operators
-# - if / elif / else
-# - and / or / not
-# - Counters and accumulators
-# - Number-based problem solving
-# - Even / odd number logic
-# - Sum calculation
-# - Multiplication tables
-# - Infinite loop detection and fixing
-#
-# 💡 Main Learning:
-# I learned how multiple Python concepts can be combined
-# to build logical solutions instead of practicing each
-# concept separately.
-#
-# 🏆 Status:
-# Python Day 5 — While Loop Practice Completed
-#
-# 👩‍💻 Author:
-# Maham Fayyaz
-#
-# =================================================================
+# Today's practice is complete.
+# I learned while loop, break, continue, pass, input validation,
+# counters, accumulators, even/odd logic, sum, and multiplication tables.

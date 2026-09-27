@@ -1,10 +1,12 @@
-# 🤖 My AI Learning Journey
+# My AI Learning Journey
+
+Hi! I'm Maham Fayyaz from Sialkot, Pakistan.
 
 I am learning step by step from programming fundamentals to advanced Artificial Intelligence.
 
-My goal is to build real-world AI systems, develop strong technical skills, and grow into an **AI Engineer, AI Architect, and AI Researcher**.
+My goal is to build real-world AI systems, develop strong technical skills, and grow into an AI Engineer, AI Architect, and AI Researcher.
 
-## 🗺️ My Final Learning Roadmap
+## My Final Learning Roadmap
 
 Computer Basics
 ↓
@@ -56,8 +58,7 @@ Research Papers & AI Research
 ↓
 AI Research / AI Architect
 
-## 🏆 Practice & Portfolio
-
+## Practice & Portfolio
 - Kaggle Courses
 - Kaggle Exercises
 - Kaggle Competitions
@@ -65,16 +66,20 @@ AI Research / AI Architect
 - GitHub Projects
 - Real-world AI Projects
 
-## 🎯 Final Goal
+## Final Goal
 
-**AI Engineer → AI Architect → AI Researcher**
+AI Engineer -> AI Architect -> AI Researcher
 
 I want to build useful and impactful AI systems and continuously improve my knowledge through learning, practice, projects, and research.
 
----
+## What I'm Doing Now
 
-🐍 Learning Python  
-📊 Building Data & Machine Learning skills  
-🤖 Advancing toward Artificial Intelligence  
-🔬 Learning Research & AI Systems  
-🚀 Building projects along the way
+- Learning Python
+- Building Data & Machine Learning skills
+- Advancing toward Artificial Intelligence
+- Learning Research & AI Systems
+- Building projects along the way
+
+## Author
+
+Maham Fayyaz

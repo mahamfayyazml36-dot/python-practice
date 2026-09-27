@@ -1,69 +1,44 @@
-# 🐍 Mini Project 4 — Number & Table Generator
+# Mini Project 4 - Number Printer & Multiplication Table
 
 This is my fourth Python mini project.
 
-In this project, I practiced using the **`for` loop** to generate numbers and a multiplication table.
+## Concepts Practiced
+- input()
+- int()
+- for loop
+- range()
 
-## 📌 What This Project Does
+## What It Does
+The program takes a number from the user and:
+1. Prints all numbers from 1 to that number.
+2. Prints the multiplication table of that number (1 to 10).
 
-The program:
+## How to Run
+1. Open the file in Python.
+2. Run it.
+3. Enter a number.
+4. See the numbers and multiplication table.
 
-1. Takes a number from the user.
-2. Prints numbers from `1` to the entered number.
-3. Generates the multiplication table of that number from `1` to `10`.
+## Example Output
+Enter your number: 5
 
-## 💻 Example
-
-```text
-Enter a number: 5
-
------ Numbers from 1 to 5 -----
+----Number from 1 to 5 ----
 1
 2
 3
 4
 5
+----Multiplication Table of 5 ----
+5 X 1 = 5
+5 X 2 = 10
+5 X 3 = 15
+5 X 4 = 20
+5 X 5 = 25
+5 X 6 = 30
+5 X 7 = 35
+5 X 8 = 40
+5 X 9 = 45
+5 X 10 = 50
 
------ Multiplication Table -----
-5 x 1 = 5
-5 x 2 = 10
-5 x 3 = 15
-5 x 4 = 20
-5 x 5 = 25
-5 x 6 = 30
-5 x 7 = 35
-5 x 8 = 40
-5 x 9 = 45
-5 x 10 = 50
-```
-
-## 🧠 Concepts Practiced
-
-* `for` loop
-* `range()`
-* Variables
-* `input()`
-* `int()`
-* `print()`
-* Multiplication
-
-## 🎯 Goal
-
-The goal of this project is to understand how `for` loops work and how they can be used to repeat tasks and generate patterns of numbers.
-
-## 📁 File
-
-```text
-day4_mini_project.py
-```
-
-## 🚀 Learning Progress
-
-This is my **fourth Python mini project** in my Python practice journey.
-
-### Completed Topics
-
-* ✅ Variables, `print()`, `input()`
-* ✅ Data Types
-* ✅ Operators
-* ✅ `for` Loop
+## Author
+Maham Fayyaz

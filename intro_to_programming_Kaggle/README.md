@@ -1,139 +1,64 @@
-# Kaggle Intro to Programming - Python Practice 🐍
+# My Kaggle Practice - Intro to Programming
 
-This repository contains my Python practice and exercises from the **Kaggle Intro to Programming** course.
+Hi! I'm Maham Fayyaz from Sialkot, Pakistan.
 
-I completed this course to build strong Python programming fundamentals as the first step toward my AI journey.
+This is my Python practice from the Kaggle "Intro to Programming" course.
+I completed this course to build strong Python basics for my AI journey.
 
-## 🎯 My Final Goal
+## My Goal
 
-**AI Engineer → AI Architect → AI Researcher**
+AI Engineer -> AI Architect -> AI Researcher
 
-I want to build useful and impactful AI systems and continuously improve my knowledge through learning, practice, projects, and research.
+I want to build useful AI systems and keep learning through practice and projects.
 
----
+## What I Practiced
 
-# 📚 Course Overview
+### Day 1: Arithmetic and Variables
+- print()
+- Variables
+- Arithmetic operators (+, -, *, /, **)
+- f-strings
+- Time calculations (hours to seconds)
 
-## Day 1 — Arithmetic and Variables
-
-### Topics Covered:
-- Printing text using `print()`
-- Creating and using variables
-- Strings and numbers
-- Arithmetic operators:
-  - Addition (`+`)
-  - Subtraction (`-`)
-  - Multiplication (`*`)
-  - Division (`/`)
-  - Power (`**`)
-- Time and unit calculations
-- String formatting using f-strings
-
-### Practice:
-- Variable creation
-- Mathematical calculations
-- Hours to seconds conversion
-
----
-
-## Day 2 — Functions
-
-### Topics Covered:
-- Creating functions using `def`
+### Day 2: Functions
+- def keyword
 - Parameters and arguments
-- Returning values using `return`
+- return statement
 - Single and multiple arguments
 - Functions without arguments
-- Mathematical operations inside functions
-- Function naming conventions
-- Real-world calculations
+- Tax and salary calculations
 
-### Practice:
-- Salary calculation
-- Tax calculation
-- Mathematical functions
-- Multiple argument functions
-
----
-
-## Day 3 — Data Types
-
-### Topics Covered:
-- Integer (`int`)
-- Float (`float`)
-- Boolean (`bool`)
-- String (`str`)
-- Checking data types using `type()`
-- Finding length using `len()`
-- Rounding numbers using `round()`
+### Day 3: Data Types
+- Integer (int)
+- Float (float)
+- Boolean (bool)
+- String (str)
+- type() and len()
+- round()
 - Type conversion
-- String operations
+- String concatenation and multiplication
 
-### Practice:
-- Working with different Python data types
-- String concatenation
-- String repetition
-
----
-
-## Day 4 — Conditions and Conditional Statements
-
-### Topics Covered:
-- Comparison operators:
-  - `>`
-  - `<`
-  - `>=`
-  - `<=`
-  - `==`
-  - `!=`
-- Boolean expressions
-- `if` statements
-- `if-else`
-- `if-elif-else`
+### Day 4: Conditions
+- Comparison operators (>, <, >=, <=, ==, !=)
+- if, if-else, if-elif-else
 - Conditional logic inside functions
-
-### Practical Projects:
 - Grade system
 - Project cost calculator
 - Water bill calculator
 - Phone bill calculator
 
----
-
-## Day 5 — Lists
-
-### Topics Covered:
+### Day 5: Lists
 - Creating lists
-- List indexing
-- List slicing
-- `len()`
-- `append()`
-- `remove()`
-- `min()`
-- `max()`
-- `sum()`
+- Indexing and slicing
+- len(), append(), remove()
+- min(), max(), sum()
 - Average calculation
 - Functions with lists
-- Boolean lists
-- List comprehension
-- String `split()` method
+- Boolean lists and list comprehension
+- split() method
 
-### Practice:
-- Sales analysis
-- Customer data analysis
-- Ratings analysis
-- Menu management
-
----
-## 🔗 Kaggle Notebook
-
-My Kaggle notebook contains my Python self-practice after completing the Kaggle Intro to Programming course.
-
-👉 [View My Kaggle Notebook] (https://www.kaggle.com/code/mahamml/python-basics-practice-maham-fayyaz)
-# 🧪 My Own Python Practice
-
-Along with Kaggle exercises, I created my own practice programs:
-
+## My Own Practice Programs
+Along with Kaggle exercises, I also made my own practice programs:
 - Personal Information Program
 - Smart Calculator
 - Salary Calculator
@@ -141,40 +66,30 @@ Along with Kaggle exercises, I created my own practice programs:
 - Student Introduction Program
 - Sales Analyzer
 
----
+## Repository Files
+- kaggle_day01.py
+- kaggle_day02.py
+- kaggle_day03.py
+- kaggle_day04.py
+- kaggle_day05.py
+- python_basics_practice.ipynb
+- README.md
 
-# 📂 Repository Structure
+## Kaggle Notebook
+You can view my Kaggle notebook here:
+https://www.kaggle.com/code/mahamml/python-basics-practice-maham-fayyaz
 
-```text
-Kaggle-Intro-To-Programming/
-│
-├── kaggle_day01.py
-├── kaggle_day02.py
-├── kaggle_day03.py
-├── kaggle_day04.py
-├── kaggle_day05.py
-├── python_basics_practice.ipynb
-└── README.md
-```
-
----
-
-# 🛠️ Skills Practiced
-
+## Skills Practiced
 - Python Basics
 - Problem Solving
 - Logical Thinking
 - Functions
-- Data Handling Basics
-- Programming Fundamentals
+## Status
+Kaggle Intro to Programming — Completed.
 
----
-
-# 🚀 AI Learning Roadmap
-
+Currently building my Python foundation through practice, projects, and continuous learning.
+## AI Learning Roadmap
 My long-term learning roadmap toward becoming an **AI Engineer → AI Architect → AI Researcher**:
-
-```text
 Computer Basics
         ↓
 MS Word + Excel
@@ -224,20 +139,6 @@ AI System Design
 Research Papers & AI Research
         ↓
 AI Research / AI Architect
-```
-
----
-
-# ✅ Status
-
-**Kaggle Intro to Programming — Completed** 🎉
-
-Currently building my Python foundation through practice, projects, and continuous learning.
-
----
-
-## 👩‍💻 Author
-
-**Maham Fayyaz**
-
+## Author
+Maham Fayyaz
 Aspiring AI Engineer | AI Architect | AI Researcher

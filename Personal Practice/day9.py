@@ -1,19 +1,15 @@
-# ============================================================
-# DAY 9 — LIST METHODS & OPERATIONS 📋
-# Topic: Python Lists
-# Practiced List Methods and Operations:
-# append(), insert(), remove(), pop(), clear()
-# sort(), reverse(), count(), index(), copy()
-# Membership Operators: in, not in
-# Practiced and completed by: Maham Fayyaz
-# ============================================================
+# My Day 9 Python Practice
+# Name: Maham Fayyaz
+# What I learned today: list methods 
+# (append, insert, remove, pop, clear, sort, reverse, count, index, copy)
+
 # append()
 foods = ["Biryani", "Pizza"]
 foods.append("Burger")
 print(foods)
 # insert()
 foods = ["Biryani", "Sajji"]
-foods.insert(1,"Cold drink")
+foods.insert(1, "Cold drink")
 print(foods)
 # remove()
 favorite_subject = ["Python", "NLP"]
@@ -25,11 +21,11 @@ introduction.pop()
 introduction.pop(1)
 print(introduction)
 # clear()
-ingredients = ["Flour", "Cack", "Candy"]
+ingredients = ["Flour", "Cake", "Candy"]
 ingredients.clear()
 print(ingredients)
 # sort()
-number = [50, 85, 96, 12, 45 , 23]
+number = [50, 85, 96, 12, 45, 23]
 number.sort()
 print(number)
 # reverse()
@@ -37,28 +33,26 @@ course = ["Data science", "Data analyst", "Python for everybody"]
 course.reverse()
 print(course)
 # count()
-sereis = ["Abdull hamid", "ertugrul", "Mustafa kamal"]
-print(sereis.count("Mustafa kamal"))
+series = ["Abdul Hamid", "Ertugrul", "Mustafa Kamal"]
+print(series.count("Mustafa Kamal"))
 
 # index()
-sister = ["Mafia shehzadi", "Maria", "Jannat", "Maham"]
+sister = ["Mafia Shehzadi", "Maria", "Jannat", "Maham"]
 print(sister.index("Jannat"))
 # copy()
-city = ["Sialkot", "UK", "Us", "Finland"]
-new_citeis = city.copy()
-new_citeis.append("Turkish language")
-print(new_citeis)
+city = ["Sialkot", "UK", "US", "Finland"]
+new_cities = city.copy()
+new_cities.append("Turkish Language")
+print(new_cities)
 print(city)
-# in_
-books =["Math", "English", "Urdu"]
+# in
+books = ["Math", "English", "Urdu"]
 print("Math" in books)
 print("computer" in books)
-# not in_
+# not in
 classes = ["Biology", "Computer", "IT"]
 print("Math" not in classes)
 print("Biology" not in classes)
-# ============================================================
-# DAY 9 COMPLETED ✅
-# Practiced and understood important Python List methods,
-# list operations, copying lists, and membership checking.
-# ============================================================
+# Today's practice is complete.
+# I practiced list methods, list operations, copying lists,
+# and membership checking (in, not in).

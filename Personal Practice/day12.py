@@ -1,38 +1,37 @@
-# ============================================================
-# DAY 12 — PYTHON DICTIONARIES
-# Topic: Dictionary Basics & Nested Dictionaries
-# Practice: Sufi Kalam Dictionary
-# Practiced and completed by: Maham Fayyaz
-# ============================================================
+# My Day 12 Python Practice
+# Name: Maham Fayyaz
+# What I learned today: dictionaries 
+# (create, access, add, update, delete, keys, values, items, get, 
+# len, pop, clear, in, nested dictionaries)
 
 sufi_kalam = {
-    "title" : "Allah Hoo",
-    "poet" : "Sultan Bahu",           # Create Dictionary
-    "language" : "Punjabi",
-    "genre" : "Sufi Kalam",
-    "theme" : "Ishqe Haqiqi"
+    "title": "Allah Hoo",
+    "poet": "Sultan Bahu",           # Create dictionary
+    "language": "Punjabi",
+    "genre": "Sufi Kalam",
+    "theme": "Ishq-e-Haqiqi"
 }
 print(sufi_kalam)
 print(sufi_kalam["title"])
 print(sufi_kalam["theme"])
 
-sufi_kalam["region"] = "Punjab"        # addition metod in dictionary             
+sufi_kalam["region"] = "Punjab"       # Add new key    
 print(sufi_kalam)                  
 
-sufi_kalam["language"] = "Punjabi & Urdu"  # data update in dictionary    
+sufi_kalam["language"] = "Punjabi & Urdu"  # Update value 
 print(sufi_kalam)
 
-del sufi_kalam["genre"]    #Data delete in dictionary method
+del sufi_kalam["genre"]      # Delete key
 print(sufi_kalam)
 
-print(sufi_kalam.keys())   # key method in dictionary  
+print(sufi_kalam.keys())    # keys()
 
-print(sufi_kalam.values()) # values method in dictionary
+print(sufi_kalam.values()) # values()
 
-print(sufi_kalam.items()) # item method in dictionary 
+print(sufi_kalam.items())  # items()
 
 print(sufi_kalam.get("theme"))
-print(sufi_kalam.get("singer"))     #get method in dictionary
+print(sufi_kalam.get("singer"))      # get()
 
 for key in sufi_kalam:
     print(key)
@@ -41,15 +40,15 @@ for key, value in sufi_kalam.items():
     print(key, ":", value)    
 
 sufi_kalams = {
-    "sufi_kalam1" : {
-        "title" : "Allah Hoo",
-         "poet": "Sultan Bahu",
-        "language" : "Punjabi"
+    "sufi_kalam1": {
+        "title": "Allah Hoo",
+        "poet": "Sultan Bahu",
+        "language": "Punjabi"
     },
-    "sufi_kalam2" : {
-        "title" : "Bhar do jhuli meri ya muhammad",
-        "poet" : "Sabri Brothers",
-        "language" : "Urdu"
+    "sufi_kalam2": {
+        "title": "Bhar Do Jhuli Meri Ya Muhammad",
+        "poet": "Sabri Brothers",
+        "language": "Urdu"
     }   
 }
 print(sufi_kalams["sufi_kalam1"]["title"])
@@ -60,8 +59,8 @@ for kalam, data in sufi_kalams.items():
     print(data)
 
 for kalam, data in sufi_kalams.items():
-    print("Title:" , data["title"])
-    print("Poet:" , data["poet"])
+    print("Title:", data["title"])
+    print("Poet:", data["poet"])
 
 print(len(sufi_kalams))
 
@@ -75,9 +74,6 @@ print(sufi_kalams)
 print("poet" in sufi_kalam)
 print("singer" in sufi_kalam)
 
-# ============================================================
-# DAY 12 DICTIONARY PRACTICE COMPLETED ✅
-# Practiced: Create, Access, Add, Update, Delete,
-# keys(), values(), items(), get(), len(), pop(),
-# clear(), in, Loops & Nested Dictionaries.
-# ============================================================
+# Today's practice is complete.
+# I practiced dictionaries: create, access, add, update, delete,
+# keys, values, items, get, len, pop, clear, in, and nested dictionaries.

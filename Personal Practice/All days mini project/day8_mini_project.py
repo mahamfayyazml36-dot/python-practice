@@ -1,16 +1,7 @@
-# ============================================================
-# DAY 8 — MINI PROJECT: SHOPPING LIST MANAGEMENT PROGRAM 🛒
-# Project Features:
-# 1. Add Items
-# 2. Insert Item at a Specific Index 
-# 3. View Shopping List
-# 4. Check Item Availability
-# 5. Remove Item
-# 6. Remove Item by Index 
-# 7. Update Item 
-# 8. Count Total Items
-# 9. Exit Program 
-# ============================================================
+# My Mini Project 8: Shopping List Management Program
+# Name: Maham Fayyaz
+# What it does: Add, insert, view, check, remove, update, and count items.
+# What I learned: lists, append, insert, remove, pop, len, enumerate
 
 print("========== SHOPPING LIST PROGRAM ==========")
 print("1. Add Item")
@@ -66,7 +57,7 @@ while True:
 
         if item_to_remove in shopping_list:
             shopping_list.remove(item_to_remove)
-            print("Successfully remove Item")
+            print("Successfully removed Item")
         else:
             print("Item not found in shopping list")
 
@@ -83,7 +74,7 @@ while True:
     elif choice == 7:
 
         update_index = int(input("Enter index to update:"))
-        update_item = input("Enter the update item:")
+        update_item = input("Enter the new item:")
 
         shopping_list[update_index] = update_item
 
@@ -91,17 +82,13 @@ while True:
 
     elif choice == 8:
 
-        print("Shopping Item:", len(shopping_list))
+        print("Total Item:", len(shopping_list))
 
     elif choice == 9:    
 
         print("Program Exited.")
         break
-# ============================================================
-# DAY 8 — SHOPPING LIST PROJECT COMPLETED ✅
-#
-# I practiced and integrated Python Lists with Conditions
-# and Loops to build a complete menu-based mini project.
-#
-# Day 8 Completed Successfully! 🎯🐍
-# ============================================================    
+    else:
+        print("Invalid choice please select(1 to 9)")
+# Mini Project day 8 complete.
+# This program is a menu-based shopping list manager using lists.  

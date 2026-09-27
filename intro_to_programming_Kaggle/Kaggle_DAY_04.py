@@ -1,17 +1,9 @@
-# ============================================================
-# Kaggle - Intro to Programming
-# Day 4: Conditions and Conditional Statements
-# Topics Covered:
-# - Comparison Operators (>, <, ==, !=, <=, >=)
-# - Boolean Expressions & Evaluation
-# - If Statements
-# - If-Else Statements
-# - If-Elif-Else Chains
-# - Functions with Conditional Logic
-# - Real-World Kaggle Problem Solving (Grading, Pricing & Billing)
-# ============================================================
+# My Kaggle Practice - Day 4
+# Name: Maham Fayyaz
+# What I learned today: conditions (if, if-else, if-elif-else), comparison operators
+# Course: Kaggle - Intro to Programming
 
-#............. Startup............
+# ............. Startup............
 print(3>5) 
 print(5<10) 
 print(2>3)
@@ -19,41 +11,41 @@ variable_one = 10
 variable_two = 20
 print(variable_one > 20)
 print(variable_one <= variable_two)
-print(15 == 15)        # equal to
+print(15 == 15)        # Equal To
 print(15 == 13)
-print(15 != 15)        # Not equal 
+print(15 != 15)        # Not Equal 
 print(12 != 15)
-print(4 < 10)           # Lessthan
+print(4 < 10)           # Less Than
 print(10 < 4)
 print( 15 > 20 )
-print(20 > 15)           # Greaterthan
-print(15 <= 16)         # Lessthan eqaul
+print(20 > 15)           # Greater Than
+print(15 <= 16)         # Less Than Eqaul
 print(15 <= 15)
-print(20 >= 15)          #Greaterthan equal 
+print(20 >= 15)          #Greater Than Equal 
 print(20 >= 20)
 # if
-#1
+# 1
 temperature = 39
 if temperature >= 38:
     print("Warm sesson")
-#2
+# 2
 age = 20
 if age>= 18:
     print("You can vote")
-# if else
-#1
+# if-else
+# 1
 age = 15
 if age >= 18:
     print("You can vote")
 else:
     print("You cannot vote")
-#2
+# 2
 marks= 30
 if marks >= 35:
     print("pass!")
 else:
     print("Failed!")
-# if elif else
+# if-elif-else
 mark = 850
 if mark >= 900:
     print("Grade: A ")
@@ -63,7 +55,7 @@ elif mark >= 700:
     print("Grade: C ")
 else:
     print("Failed!")
-#1
+# 1
 price = 70
 if price >= 65: 
     result = price + 25
@@ -73,7 +65,7 @@ elif price >= 60:
     print(result1)
 else:
     print("invalid")                   
-#1
+# 1
 def add_five(numbers):
     if numbers < 10:
         final_result = numbers + 5
@@ -83,7 +75,7 @@ def add_five(numbers):
 print(add_five(8))
 print(add_five(12))       
 
-#2
+# 2
 def add_ten_or_three(number):
     if number > 15:
         result = number + 10
@@ -93,8 +85,8 @@ def add_ten_or_three(number):
 print(add_ten_or_three(20))
 print(add_ten_or_three(10))            
 
-#Kaggle exercise
-#1
+# Kaggle exercise
+# 1
 
 def get_grade(score):
     if score >= 90:
@@ -115,7 +107,7 @@ print(get_grade(65))
 print(get_grade(55))
 print(get_grade(45))       
 
-#2
+# 2
 def cost_of_project(engraving, solid_gold):
     if solid_gold == True:
         cost = 100 + 10 * len(engraving)
@@ -125,7 +117,7 @@ def cost_of_project(engraving, solid_gold):
 print(cost_of_project("Love", True))
 print(cost_of_project("Hello", False))            
 
-#3
+# 3
 
 def get_water_bill(num_gallons):
     if num_gallons <= 8000:
@@ -142,7 +134,7 @@ print(get_water_bill(21999))
 print(get_water_bill(29999))
 print(get_water_bill(30002))
 
-#4
+# 4
 def get_phone_bill(gb):
     if gb <= 15:
         bill = 100
@@ -152,23 +144,7 @@ def get_phone_bill(gb):
     return bill
 print(get_phone_bill(12))
 print(get_phone_bill(15.2))         
-
-# ============================================================
-# DAY 4 SUMMARY & KEY TAKEAWAYS
-# ============================================================
-# 1. Comparison Operators:
-#    Used to compare values. Returns True or False (Boolean).
-#    Operators: >, <, >=, <=, == (equal), != (not equal)
-
-# 2. Conditional Structure:
-#    - 'if': Executes code if condition is True.
-#    - 'elif': Checks additional conditions if previous ones were False.
-#    - 'else': Fallback code if no conditions were met.
-
-# 3. Practical Applications Built Today:
-#    - Grading System: Multi-tier logic using if-elif-else.
-#    - Project Cost Estimator: Dynamic pricing based on string length & boolean conditions.
-#    - Water & Phone Bill Calculators: Real-world tiered pricing and extra usage calculations.
-
-# Status: All Kaggle Exercise 4 Questions Successfully Solved & Verified!
-# ============================================================
+# Today's practice is complete.
+# I practiced comparison operators, if, if-else, if-elif-else,
+# and Kaggle exercises like grading, project cost, water bill, and phone bill.
+# This is my Kaggle Day 4 practice.

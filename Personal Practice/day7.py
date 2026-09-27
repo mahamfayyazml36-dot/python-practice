@@ -1,50 +1,6 @@
-'''# 🟢 DAY 7 — Conditions + Loops Integration
-Part 1 — Conditions Deep Practice
-if
-if + else
-if + elif + else
-Multiple elif
-Nested if
-Multiple conditions
-and
-or
-not
-Comparison operators with real situations
-Conditions with user input
-Conditions with numbers
-Conditions with strings
-Conditions with lists
-Part 2 — Condition Logic
-Positive / negative / zero
-Even / odd
-Greater / smaller / equal
-Multiple-number comparison
-Range checking
-Age/eligibility logic
-Marks/grade logic
-Login/validation logic
-Combining multiple requirements
-Part 3 — Conditions + Loops
-for + if/elif/else
-while + if/elif/else
-Counting based on conditions
-Filtering values using conditions
-Searching using conditions
-Accumulating values based on conditions
-Nested conditions inside loops
-Multiple conditions inside loops
-Part 4 — Logic-Building Practice
-Student marks analyzer
-Grade calculator
-Eligibility checker
-Number analyzer
-Simple data filtering
-Multiple students processing
-🟢 Part 5 — Day 7 Mini Project
-
-Student Grade & Eligibility Analyzer
-
-Ismein hum combine karenge:'''
+# My Day 7 Python Practice
+# Name: Maham Fayyaz
+# What I learned today: conditions + loops together
 
 # Practice 1
 number = 10
@@ -70,7 +26,7 @@ if name == "Maham Fayyaz":
     print("Welcome", name)
 else:
     print("Please try again")
-#Practice 5
+# Practice 5
 number = 10
 if number == 10:
     print("Number is 10")   
@@ -82,18 +38,18 @@ if number == 10:
     print("Number is 10")
 else:
     print("Number is not 10") 
-# practice 7
+# Practice 7
 balance = 5000
 if balance >= 1000:
     print("Sufficient balance")   
 else:
-    print(" Not Sufficient balance")                 
+    print(" Not sufficient balance")                 
 # Practice 8
 temperature = 35
 if temperature >= 30:
-    print("It is not hot temperature")   
+    print("It is hot temperature") 
 else:
-    print("temperature is not hot")
+    print("Temperature is not hot")
 # Practice 9
 marks = 75
 if marks >= 80:
@@ -160,7 +116,7 @@ elif marks >= 50 and attendance < 75:
 else:
     print("Fail")
 # Practice 16    
-number= 15
+number = 15
 if number > 0 and number %2 == 0:
     print("Positive Even")
 elif number > 0 and number %2 != 0 :
@@ -187,9 +143,9 @@ if marks >= 50:
 else:
     print("Fail")        
 # Practice 19
-username ="Maham Fayyaz"
+username = "Maham Fayyaz"
 password = "1234" 
-if username =="Maham Fayyaz":
+if username == "Maham Fayyaz":
     if password == "1234":
         print("Login Successful") 
     else:
@@ -197,7 +153,7 @@ if username =="Maham Fayyaz":
 else:
     print("Wrong Username") 
 # Practice 20
-number= 10
+number = 10
 if number > 0:
     if number %2 == 0:
         print("Positive Even")
@@ -248,7 +204,7 @@ else:
 # Practice 25
 age = 16
 if age < 18 or age > 60:
-    print("appropriate")
+    print("Not in normal age group")
 else:
     print("Normal Age Group")     
 
@@ -269,7 +225,7 @@ logged_in = False
 if not logged_in:
     print("Please login") 
 else:
-    print("Congratulation")
+    print("Congratulations")
 # Practice 29
 account_active = False
 if not account_active:
@@ -308,7 +264,7 @@ if "mango" in fruits:
     print("True")
 else:
     print("False")           
-# Pratice 35
+# Practice 35
 numbers = [10, 20, 30, 40, 50]
 if 40 in numbers:
     print("Yes")
@@ -317,9 +273,9 @@ else:
 # Practice 36
 students = ["Ali", "Sara", "Maham", "Ahmed"]
 if "Sara" in students:
-    print("True Present the Sara in this list")
+    print("Sara is present in this list")
 else:
-    print("Not present the Sara in this list")
+    print("Sara is not present in this list")
 # Practice 37
 a = 10
 b = 13
@@ -355,16 +311,16 @@ else:
     print("Age is not in the range")
 # Practice 41
 marks = 80
-if 50<= marks <= 100:
-    print("marks is in the renge 50to 100")
+if 50 <= marks <= 100:
+    print("Marks is in the range 50 to 100")
 else:
-    print("marks is not in the range") 
+    print("Marks is not in the range") 
 # Practice 42
 number = 25
-if 10 <=  number <= 50:
-    print("number is in the range 10 to 50")
+if 10 <= number <= 50:
+    print("Number is in the range 10 to 50")
 else:
-    print("number is not in the range")                
+    print("Number is not in the range")                
 
 # Practice 43
 numbers = [10, 15, 20, 25, 30] 
@@ -388,7 +344,7 @@ for mark in marks:
 numbers = [-5, 0, 10, -2, 8, 0]
 for number in numbers:
     if number > 0:
-        print(number, "positive")
+        print(number, "Positive")
     elif number < 0:
         print(number, "Negative")
     else:
@@ -406,7 +362,7 @@ number = 1
 while number <= 10:
     if number < 4:
         print(number,"Small") 
-    elif 4<=number<=7: 
+    elif 4 <= number <= 7: 
         print(number, "Medium")
     else:
         print(number, "Large")          
@@ -417,7 +373,7 @@ while number <= 5:
     if number > 0:
         print(number, "Positive")
     elif number < 0:
-        print(number, "negative")  
+        print(number, "Negative")  
     else:
         print(number, "Zero")
     number = number + 1    
@@ -435,12 +391,12 @@ total = 0
 for mark in marks:
     if mark >= 50:
         total = total + 1
-print("Marks or 50 above:",total) 
+print("Marks 50 or above:",total) 
 # Practice 51
 numbers = [-5, 10, -2, 8, 0, 15, -7]
 for number in numbers:
     if number > 0:
-        print("positive Number:", number)        
+        print("Positive Number:", number)        
 # Practice 52
 marks = [45, 60, 75, 82, 90]
 search = 75
@@ -452,7 +408,7 @@ numbers = [-5, 10, -2, 8, 15, -7]
 total = 0
 for number in numbers:
     if number > 0:
-        total =total + number
+        total = total + number
 print("Total:", total)                    
 
 # Practice 54
@@ -566,7 +522,9 @@ for name, mark in students:
     else:
         print(name, mark, "Fail")
 
-
+# Today's practice is complete.
+# I practiced conditions with loops, nested conditions,
+# and 63 different practice programs.
 
 
 

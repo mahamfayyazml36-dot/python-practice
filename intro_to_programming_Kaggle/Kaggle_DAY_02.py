@@ -1,21 +1,13 @@
-# ============================================================
-# Kaggle - Intro to Programming
-# Day 2: Functions
-# Topics Covered:
-# - Defining Functions using the 'def' keyword
-# - Function Parameters and Arguments (Single & Multiple)
-# - Returning Values using the 'return' statement
-# - Mathematical Operations inside Functions (+, -, *, /)
-# - Function Naming Conventions (snake_case)
-# - Real-World Applications (Tax & Salary Calculations)
-# - Functions Without Arguments
-# ============================================================
+# My Kaggle Practice - Day 2
+# Name: Maham Fayyaz
+# What I learned today: functions, def, parameters, return, multiple arguments
+# Course: Kaggle - Intro to Programming
 
-                              # Functions
+# Functions
 def math(work):
-        insta=work+5
+        insta = work + 5
         return insta
-number=math(10)
+number = math(10)
 print(number)
 
 def maria(jannat):
@@ -31,21 +23,21 @@ def important(Multiply):
 number = important(5)
 print(number)
 
-#2.
+# 2.
 def selection(method):
     addition = method + 20
     return addition
 subtitle = selection(10)
 print(subtitle)
 
-#3.
+# 3.
 def education(action):
     obsession = action + 8
     return obsession
 ultimate = education(15) 
 print(ultimate)
 
-#4.
+# 4.
 def increasable(sugession):
     forward = sugession + 25
     return forward
@@ -59,7 +51,7 @@ def chair(desk):
 sufa = chair(10)
 print(sufa)
 
-                        # multiply subtraction Division 
+# Sultiply Subtraction Division 
 # 1.
 
 def  subtraction(method):
@@ -108,7 +100,7 @@ def function(number):
 result = function(10)
 print(result)    
 
-# Naming functions
+# Naming Functions
 # 1.
 def add_five(section):
     result = section + 5
@@ -130,7 +122,7 @@ def subtraction_two(agriculture):
 num = subtraction_two(14)
 print(num)
 
-# TAX EXAPMLE
+# Tax Example
 def total_pay(pay_huors):
     pay_first = pay_huors * 110
     pay_aftertax = pay_first * (1-0.50)
@@ -138,35 +130,19 @@ def total_pay(pay_huors):
 result = total_pay(24)
 print(result)
 
-# Multiple argument 
+# Multiple Argument 
 def math_simple(number1, number2, number3, number4):
     result = number1 + number2 - number3 * number4
     return result
 final_result = math_simple(12,12,24,62)
 print(final_result)
-# no argument
+# No Argument
 def intro():
     print("Assalam-o-alaikum!")
     print("My name is Maham Fayyaz.")
     print("I am Learning Python.")
 intro()    
-
-# ============================================================
-# DAY 2 SUMMARY & KEY TAKEAWAYS
-# ============================================================
-# 1. Function Basics:
-#    - Created using 'def function_name(parameter):'
-#    - 'return' sends the calculated result back to the caller.
-#    - Calling a function executes the code inside it with specified arguments.
-
-# 2. Parameters & Arguments:
-#    - Can take no arguments: def intro()
-#    - Can take single argument: def add_five(section)
-#    - Can take multiple arguments: def math_simple(n1, n2, n3, n4)
-
-# 3. Best Practices:
-#    - Use descriptive names (e.g., 'add_five' instead of generic names).
-#    - Functions help reuse code and avoid writing the same math repeatedly.
-
-# Status: All Kaggle Day 2 Concepts Successfully Tested & Working!
-# ============================================================
+# Today's practice is complete.
+# I practiced functions: def, parameters, return, multiple arguments,
+# and real-world examples like tax calculation.
+# This is my Kaggle Day 2 practice.

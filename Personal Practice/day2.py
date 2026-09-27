@@ -1,37 +1,21 @@
-# ============================================================
-# Python Practice - Day 2: Operators
-#
-# Practiced and completed by: Maham Fayyaz
-# This practice was completed independently while learning
-# Python programming.
-#
-# Topics Covered:
-# - Arithmetic Operators
-# - Comparison Operators
-# - Logical Operators
-# - Assignment Operators
-# - Membership Operators
-# - Identity Operators
-# - Using Operators with Variables
-# ============================================================
-
 # My Day 2 Python Practice
+# Name: Maham Fayyaz
+# What I learned today: operators (+, -, *, /, **, //, ==, !=, >, <, and, or, not)
 
-
-                    # OPERATORS
+# Operators
 # 1. Addition
 
 number1 = 12
 number2 = 30
 print(number1 + number2)
 
-# 2. Minus
+# 2. Subtraction
 
 number3 = 45
 number4 = 25
 print(number3 - number4)
 
-# 3. Multiply
+# 3. Multiplication
 
 number5 = 25
 number6 = 3
@@ -54,15 +38,15 @@ print(number9 ** number10)
 number11 = 25
 number12 = 3
 print(number11 // number12)
-                        # Comparison Operators
-# 1. Equal to           
-a = 12                  
+# Comparison Operators
+# 1. Equal to
+a = 12
 b = 12               # check kerta hai dunu value baraber hain
-print(a == b)           
+print(a == b)
 
 c = 10
 d = 12
-print(c == d) 
+print(c == d)
 
 # 2. Not Equal to
 x = 12               # check karta hai dono values barabar nahi hain
@@ -90,34 +74,34 @@ print(class_9_student >= 45) # check karta hai pehli value bari ya barabar hai
 chemistry_chemical = 15
 print(chemistry_chemical <= 12)  # check karta hai pehli value chhoti ya barabar hai
 
-                            # Logical Operators
+# Logical Operators
 
 # 1. AND
 
 age = 18
-print(age<20 and age>25)   # check karta hai dono conditions True hain
+print(age < 20 and age > 25)   # check karta hai dono conditions True hain
 
 # 2. OR
 
 marks = 45
-print(marks<50 or marks>60)  # check karta hai kam az kam ek condition True hai
+print(marks < 50 or marks > 60)  # check karta hai kam az kam ek condition True hai
 
 # 3. NOT
 
 number = 15 
-print( not number > 20)     # True ko False aur False ko True kar deta hai.
+print(not number > 20)     # True ko False aur False ko True kar deta hai.
 
-                                # Assignment Operators
+# Assignment Operators
 # 1.
 age = 18
 print(age)
 # 2.
-number =12
+number = 12
 number += 3
 print(number)
 # 3. 
 height = 5.2
-height -=2.5
+height -= 2.5
 print(height)
 # 4. 
 multi = 5
@@ -125,15 +109,15 @@ multi *= 2
 print(multi)
 # 5.
 Division = 55
-Division /=5
+Division /= 5
 print(Division)
 
-                            #Membership Operators → in, not in 
+# Membership Operators  in, not in 
 name = "Maham Fayyaz"
 print("M" in name)
 print("yy" in name)
 print("Q" not in name)                                                        
-                            # Identity Operators → is, is not
+                            # Identity Operators is, is not
 x = 20
 y = x 
 print(y is x)
@@ -146,7 +130,7 @@ number1 = 20
 number2 = 10
 print(number1 is number2)
 
-                    # Variable
+# Variable
 
 name = "Maham Fayyaz" 
 age = 19
@@ -160,7 +144,7 @@ print(favourite_color)
 print(country)
 print(student)  
 
-                          #Casting
+# Casting
 
 X = str(19)
 y = int(19)
@@ -168,55 +152,29 @@ Z = float(20)
 print(X)
 print(y)
 print(Z)
-                          # Type
+# Type
 
 print(type(X))
 print(type(y))
 print(type(Z))
-                          # Case_Sensitive
+# Case_Sensitive
 
 name = "Jannat" 
 Name = "Noor Salam"
 print(name)
 print(Name)  
-                          # Variable Naming
+# Variable Naming
 #1. camel-case
 studentName = "Mafia Fayyaz"
-print(StudentName)
-#2. pascal_case
-SudentName = "Jannat Fayyaz"
 print(studentName)
+#2. pascal_case
+StudentName = "Jannat Fayyaz"
+print(StudentName)
 #3. Snake_case
 student_name = "Maria Fayyaz"
-print(Student_Name)
+print(student_name)
 
 
-# ============================================================
-# DAY 2 SUMMARY & KEY TAKEAWAYS
-# ============================================================
-# 1. Arithmetic Operators:
-#    - Practiced addition (+), subtraction (-), multiplication (*),
-#      division (/), power (**), and floor division (//).
-#
-# 2. Comparison Operators:
-#    - Practiced ==, !=, >, <, >= and <=.
-#    - Used comparison operators to compare different values.
-#
-# 3. Logical Operators:
-#    - Practiced AND, OR and NOT.
-#    - Used logical operators to work with multiple conditions.
-#
-# 4. Assignment Operators:
-#    - Practiced =, +=, -=, *= and /=.
-#    - Used them to assign and update variable values.
-#
-# 5. Membership Operators:
-#    - Practiced 'in' and 'not in'.
-#    - Used them to check whether a value exists in a sequence.
-#
-# 6. Identity Operators:
-#    - Practiced 'is' and 'is not'.
-#    - Used them to check whether two variables refer to the same object.
-#
-# Status: Day 2 Python Operators Practice Completed Successfully!
-# ============================================================
+# Today's practice is complete.
+# I learned arithmetic, comparison, logical, assignment,
+# membership and identity operators.

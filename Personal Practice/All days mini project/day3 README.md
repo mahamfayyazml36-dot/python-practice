@@ -1,56 +1,44 @@
-# 🐍 Mini Project 3 — Operators Calculator
+# Mini Project 3 - Simple Calculator
 
 This is my third Python mini project.
 
-In this project, I created a simple calculator to practice Python operators.
+## Concepts Practiced
+- input()
+- float()
+- Arithmetic operators (+, -, *, /, %, //, **)
+- if-else
+- Division by zero handling
 
-## 📌 Operators Practiced
+## What It Does
+The program takes two numbers from the user and performs:
+- Addition
+- Subtraction
+- Multiplication
+- Division
+- Modulus
+- Floor division
+- Power
 
-* **Addition (`+`)**
-* **Subtraction (`-`)**
-* **Multiplication (`*`)**
-* **Division (`/`)**
-* **Modulus (`%`)**
-* **Floor Division (`//`)**
-* **Power (`**`)**
+It also checks if the second number is zero before dividing.
 
-## 💻 How It Works
+## How to Run
+1. Open the file in Python.
+2. Run it.
+3. Enter two numbers.
+4. See the results.
 
-The program asks the user to enter two numbers and then calculates different mathematical operations using those numbers.
+## Example Output
+Enter your first number: 10
+Enter your second number: 3
 
-### Example
-
-```text
-Enter first number: 10
-Enter second number: 3
-
------ Calculator Results -----
+----Calculator Result----
 Addition: 13.0
 Subtraction: 7.0
 Multiplication: 30.0
 Division: 3.3333333333333335
 Modulus: 1.0
-Floor Division: 3.0
+Floor division: 3.0
 Power: 1000.0
-```
 
-## 🧠 Concepts Practiced
-
-* Variables
-* `input()`
-* `float()`
-* `print()`
-* Arithmetic operators
-* `if` condition
-* Division by zero handling
-
-## 🎯 Goal
-
-The goal of this project is to understand and practice Python arithmetic operators by building a simple calculator.
-
-## 📁 File
-
-```text
-day3_mini_project.py
-```
-
+## Author
+Maham Fayyaz
