@@ -25,15 +25,21 @@ See the student information and data types.
 ----Student Information----
 
 Name: Maham Fayyaz
+
 Age: 19
+
 Height: 5.2
+
 Student: True
 
 ----Data Type----
 
 Name: <class 'str'>
+
 Age: <class 'int'>
+
 Height: <class 'float'>
+
 is_student: <class 'bool'>
 
 ## Author
