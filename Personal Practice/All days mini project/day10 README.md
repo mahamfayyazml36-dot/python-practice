@@ -31,6 +31,7 @@ You can:
 
 ## Example Output
 ========== STUDENT RECORD SYSTEM ==========
+
 ('Leon', 18, 'C++'), ('Nilofer', 17, 'Python'), ...
 
 -----------Menu-----------
@@ -42,8 +43,11 @@ Enter your choice: 2
 Enter the student name: leon
 
 Student Found
+
 Name: Leon
+
 Age: 18
+
 Field: C++
 
 ## Author
