@@ -3,24 +3,27 @@
 This is my ninth Python mini project (Day 9 - List Methods).
 
 ## Concepts Practiced
-- Lists
-- append()
-- insert()
-- remove()
-- pop()
-- sort()
-- reverse()
-- clear()
-- count()
-- len()
-- in
-- enumerate()
-- if / elif / else
-- while loop
+
+1. Lists
+2. append()
+3. insert()
+4. remove()
+5. pop()
+6. sort()
+7. reverse()
+8. clear()
+9. count()
+10. len()
+11. in
+12. enumerate()
+13. if / elif / else
+14. while loop
 
 ## What It Does
+
 The program is a menu-based inventory manager.
 You can:
+
 1. View inventory
 2. Add product
 3. Insert product
@@ -35,6 +38,7 @@ You can:
 12. Exit
 
 ## How to Run
+
 1. Open the file in Python.
 2. Run it.
 3. Choose an option (1-12).
@@ -43,13 +47,17 @@ You can:
 ## Example Output
 
 ========== INVENTORY MANAGER ==========
+
 1. View Inventory
 2. Add Product
 ...
+
 Enter your choice: 2
+
 Enter your new product: Boxing Gloves
 
 Product added successfully
+
 ['Boxing Glove', 'Hand Wrap', 'Shin Guard', 'MMA Shorts', 'Boxing Gloves']
 
 ## Author

@@ -3,19 +3,22 @@
 This is my eighth Python mini project (Day 8 - Lists).
 
 ## Concepts Practiced
-- Lists
-- append()
-- insert()
-- remove()
-- pop()
-- len()
-- enumerate()
-- if / elif / else
-- while loop
+
+1. Lists
+2. append()
+3. insert()
+4. remove()
+5. pop()
+6. len()
+7. enumerate()
+8. if / elif / else
+9. while loop
 
 ## What It Does
+
 The program is a menu-based shopping list manager.
 You can:
+
 1. Add items (3 at a time)
 2. Insert item at a specific index
 3. View shopping list
@@ -27,6 +30,7 @@ You can:
 9. Exit
 
 ## How to Run
+
 1. Open the file in Python.
 2. Run it.
 3. Choose an option (1-9).
@@ -35,6 +39,7 @@ You can:
 ## Example Output
 
 ========== SHOPPING LIST PROGRAM ==========
+
 1. Add Item
 2. Insert Item
 3. View Shopping List
@@ -48,10 +53,13 @@ You can:
 Enter your choice: 1
 
 Enter your First Item: Milk
+
 Enter your Second Item: Bread
+
 Enter your Third Item: Eggs
 
 Items added successfully!
+
 ['Milk', 'Bread', 'Eggs']
 
 ## Author

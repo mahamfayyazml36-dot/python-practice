@@ -3,26 +3,29 @@
 This is my seventh Python mini project (Day 7 - Conditions + Loops).
 
 ## Concepts Practiced
-- Variables
-- Lists and Tuples
-- for loop
-- if / elif / else
-- Nested / multiple conditions
-- and operator
-- Comparison operators
-- len()
-- Accumulators (counting)
-- Grade calculation
-- Eligibility checking
+
+1. Variables
+2. Lists and Tuples
+3. for loop
+4. if / elif / else
+5. Nested / multiple conditions
+6. and operator
+7. Comparison operators
+8. len()
+9. Accumulators (counting)
+10. Grade calculation
+11. Eligibility checking
 
 ## What It Does
+
 The program processes multiple students and:
-- Calculates each student's grade (A, B, C, D, Fail)
-- Checks eligibility (age >= 18, marks >= 50, attendance >= 75)
-- Counts eligible and not eligible students
-- Displays a final summary
+1. Calculates each student's grade (A, B, C, D, Fail)
+2. Checks eligibility (age >= 18, marks >= 50, attendance >= 75)
+3. Counts eligible and not eligible students
+4. Displays a final summary
 
 ## How to Run
+
 1. Open the file in Python.
 2. Run it.
 3. See the grade and eligibility for each student.
@@ -31,22 +34,36 @@ The program processes multiple students and:
 ## Example Output
 
 ----------------------------------------------------------------
+
 Student: Ali
+
 Age: 25
+
 Marks: 85
+
 Attendance: 80
+
 Grade: A
+
 Eligibility: Eligible
+
 ----------------------------------------------------------------
+
 ...
 
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 FINAL SUMMARY
+
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 Total Students: 5
+
 Eligible Students: 3
+
 Not Eligible Students: 2
+
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 ## Author

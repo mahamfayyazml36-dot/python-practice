@@ -3,22 +3,24 @@
 This is my twelfth Python mini project (Day 12 - Dictionaries).
 
 ## Concepts Practiced
-- Dictionaries
-- Nested dictionaries
-- Dictionary access
-- Adding data
-- Searching data
-- Updating data
-- Deleting data
-- items()
-- pop()
-- in operator
-- while loop
-- if / elif / else
+1. Dictionaries
+2. Nested dictionaries
+3. Dictionary access
+4. Adding data
+5. Searching data
+6. Updating data
+7. Deleting data
+8. items()
+9. pop()
+10. in operator
+11. while loop
+12. if / elif / else
 
 ## What It Does
+
 The program is a menu-based student database.
 You can:
+
 1. View all students
 2. Search for a student
 3. Add a new student
@@ -27,6 +29,7 @@ You can:
 6. Exit
 
 ## How to Run
+
 1. Open the file in Python.
 2. Run it.
 3. Choose an option (1-6).
@@ -44,12 +47,19 @@ You can:
 6. Exit
 
 Enter your choice: 1
+
 View Students
+
 Name: Maham
+
 Age: 19
+
 Course: Python
+
 City: Sialkot
+
 -------------------------
 
 ## Author
+
 Maham Fayyaz

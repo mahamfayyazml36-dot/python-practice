@@ -106,101 +106,53 @@ Currently building my Python foundation through practice, projects, and continuo
 My long-term learning roadmap toward becoming an **AI Engineer → AI Architect → AI Researcher**:
 
 Computer Basics
-
         ↓
-
 MS Word + Excel
-
         ↓
-
 Python
-
         ↓
-
 Git & GitHub
-
         ↓
-
 SQL
-
         ↓
-
 NumPy
-
         ↓
-
 Pandas
-
         ↓
-
 Data Visualization
-
         ↓
-
 Power BI
-
         ↓
-
 Statistics
-
         ↓
-
 Machine Learning
-
         ↓
-
 Deep Learning
-
         ↓
-
 Computer Vision + NLP
-
         ↓
-
 Generative AI
-
         ↓
-
 LLMs (Large Language Models)
-
         ↓
-
 AI Agents
-
         ↓
-
 RAG (Retrieval-Augmented Generation)
-
         ↓
-
 Fine-Tuning LLMs
-
         ↓
-
 MLOps
-
         ↓
-
 Cloud AI (AWS / Azure / GCP)
-
         ↓
-
 AI Security
-
         ↓
-
 AI Ethics
-
         ↓
-
 AI System Design
-
         ↓
-
 Research Papers & AI Research
-
         ↓
-
 AI Research / AI Architect
 
 ## Author

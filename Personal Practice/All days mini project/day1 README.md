@@ -37,8 +37,11 @@ Computer Science
 ----Student Introduction----
 
 Name: Maham
+
 Age: 19
+
 City: Sialkot
+
 Favorite Subject: Computer Science
 
 Hello Maham!
