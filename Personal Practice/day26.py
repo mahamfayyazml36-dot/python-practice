@@ -77,7 +77,7 @@ for row in data:
         result.append(number)
 print(result)
 result1 = [number for row in data for number in row]
-print(result)        
+print(result1)        
 result2 = [number ** 2 for row in data for number in row]
 print(result2)
 data_1 = [
