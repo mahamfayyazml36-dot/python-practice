@@ -1,3 +1,15 @@
+# My Day 29 Python Practice
+# Name: Maham Fayyaz
+# What I learned today: Generators
+
+# yield
+# next()
+# Generator Functions
+# for Loop with Generators
+# Filtering Data
+# Total and Average
+# Data Batches
+
 def introduction():
     yield "Name: Maham"
     yield "Age: 19"
@@ -75,3 +87,4 @@ for data in student_data():
 average = total_marks / count
 print(average)    
                  
+# Today's practice is complete.                 
